@@ -1,0 +1,13 @@
+{
+    "compilerOptions" : {
+        "target" : "ES2022",
+        "module" : "NodeNext",
+        "moduleResolution":"NodeNext",// How imported files and packages are found
+        "rootDir" : "./src",
+        "outDir" : "./dist",
+        "strict" : true, // strice type checking 
+        "esModuleInterop" : true, //compatable with Commnonjs and es modules
+        "skipLibCheck" : true, //.d.ts 
+        "forceConsistentCasingInFileNames" : true //database.ts importing it has Database.ts this allows it 
+    }
+}
