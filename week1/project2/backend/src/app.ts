@@ -1,5 +1,5 @@
 import express ,{Request ,Response} from 'express'
-import {errorHandler} from './middleware/errorHandler'
+import {errorHandler} from './error/errorHandler'
 import {notFound} from './middleware/notFound'
 import cors from 'cors'
 import routes from "./routes/index";

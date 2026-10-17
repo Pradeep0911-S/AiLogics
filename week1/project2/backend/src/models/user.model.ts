@@ -12,6 +12,7 @@ import { randomUUID } from "crypto";
 @Table({
     tableName: "users",
     timestamps: true,
+    paranoid:true,
 })
 export class User extends Model {
     @PrimaryKey

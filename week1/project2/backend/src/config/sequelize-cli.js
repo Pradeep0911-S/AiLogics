@@ -1,4 +1,4 @@
-import './env'
+require("dotenv").config();
 
 const base = {
   username: process.env.DB_USER,
