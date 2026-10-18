@@ -1,6 +1,6 @@
 import {NextFunction,Request,Response} from 'express'
-import {AppError} from './AppError'
-import { HTTP_STATUS } from "../constants/httpStatus";
+import {AppError} from './AppError.js'
+import { HTTP_STATUS } from "../constants/httpStatus.js";
 
 export function errorHandler(err : Error,req : Request,res : Response,next : NextFunction) : void {
     if(err instanceof AppError){

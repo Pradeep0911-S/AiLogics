@@ -1,34 +1,45 @@
+
 import type { Request, Response, NextFunction } from "express";
-import { registerUser } from "../service/auth.service.js";
-import { registerSchema } from "../validation/auth.validation.js";
+import { authService } from "../service/auth.service.js";
 import { HTTP_STATUS } from "../constants/httpStatus.js";
+import { sendSuccess } from "../utils/response.js";
 
-export async function register(
-    req: Request,
-    res: Response,
-    next: NextFunction
-): Promise<void> {
-    try {
-        const validation = registerSchema.safeParse(req.body);
+export const authController = {
+    register: async (
+        req: Request,
+        res: Response,
+        next: NextFunction
+    ): Promise<void> => {
+        try {
+            const user = await authService.registerUser(req.body);
 
-        if (!validation.success) {
-            res.status(HTTP_STATUS.BAD_REQUEST).json({
-                message: "Validation failed",
-                errors: validation.error.issues.map((issue) => ({
-                    field: issue.path.join("."),
-                    message: issue.message,
-                })),
-            });
-            return;
+            sendSuccess(
+                res,
+                HTTP_STATUS.CREATED,
+                "Registration successful",
+                user
+            );
+        } catch (err) {
+            next(err);
         }
+    },
 
-        const user = await registerUser(validation.data);
+    login: async (
+        req: Request,
+        res: Response,
+        next: NextFunction
+    ): Promise<void> => {
+        try {
+            const user = await authService.loginUser(req.body);
 
-        res.status(HTTP_STATUS.CREATED).json({
-            message: "Registration successful",
-            user,
-        });
-    } catch (err) {
-        next(err);
-    }
-}
+            sendSuccess(
+                res,
+                HTTP_STATUS.OK,
+                "Login successful",
+                user
+            );
+        } catch (err) {
+            next(err);
+        }
+    },
+};

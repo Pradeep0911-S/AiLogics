@@ -1,5 +1,5 @@
 import {createApp} from './app'
-import './config/env'
+import './config/env.js'
 import { connectDatabase } from "./config/db.js";
 
 

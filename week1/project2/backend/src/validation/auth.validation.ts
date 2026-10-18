@@ -1,24 +1,25 @@
-import { z } from "zod";
 
-export const registerSchema = z.object({
-  username: z
-    .string()
-    .trim()
-    .min(3, "Username must contain at least 3 characters")
-    .regex(/^[a-zA-Z0-9_]+$/, "Username can contain only letters, numbers, and underscores"),
+import type { Request, Response, NextFunction } from "express";
+import type { ZodType } from "zod";
+import { HTTP_STATUS } from "../constants/httpStatus.js";
 
-  email: z
-    .string()
-    .trim()
-    .email("Enter a valid email address"),
+export function validate(schema: ZodType) {
+    return (req: Request, res: Response, next: NextFunction): void => {
+        const result = schema.safeParse(req.body);
 
-  password: z
-    .string()
-    .min(8, "Password must contain at least 8 characters")
-    .regex(/[a-z]/, "Password must contain a lowercase letter")
-    .regex(/[A-Z]/, "Password must contain an uppercase letter")
-    .regex(/[0-9]/, "Password must contain a number")
-    .regex(/[^a-zA-Z0-9]/, "Password must contain a special character"),
-});
+        if (!result.success) {
+            res.status(HTTP_STATUS.BAD_REQUEST).json({
+                success: false,
+                message: "Validation failed",
+                errors: result.error.issues.map((issue) => ({
+                    field: issue.path.join("."),
+                    message: issue.message,
+                })),
+            });
+            return;
+        }
 
-export type RegisterInput = z.infer<typeof registerSchema>;
+        req.body = result.data;
+        next();
+    };
+}

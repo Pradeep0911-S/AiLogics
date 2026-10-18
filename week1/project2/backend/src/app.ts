@@ -1,8 +1,9 @@
 import express ,{Request ,Response} from 'express'
-import {errorHandler} from './error/errorHandler'
-import {notFound} from './middleware/notFound'
+import {errorHandler} from './error/errorHandler.js'
+import {notFound} from './middleware/notFound.js'
 import cors from 'cors'
-import routes from "./routes/index";
+import routes from "./routes/index.js";
+
 
 export function createApp(){
     const app = express()
@@ -22,3 +23,4 @@ export function createApp(){
 
     return app;
 }
+
