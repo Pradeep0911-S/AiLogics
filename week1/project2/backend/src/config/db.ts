@@ -1,6 +1,7 @@
 import './env'
 import { Sequelize } from 'sequelize-typescript';
 import { User } from "../models/user.model.js";
+import { Session } from "../models/session.model.js";
 
 
 export const sequelize = new Sequelize({
@@ -10,7 +11,7 @@ export const sequelize = new Sequelize({
     database: process.env.DB_DATABASE_NAME,
     password: process.env.DB_PASSWORD,
     port: Number(process.env.DB_PORT),
-    models: [User],
+    models: [User,Session],
 });
 
 export async function connectDatabase() {

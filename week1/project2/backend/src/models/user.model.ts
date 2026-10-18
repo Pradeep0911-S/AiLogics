@@ -5,9 +5,11 @@ import {
     DataType,
     PrimaryKey,
     Default,
+    HasMany,
 } from "sequelize-typescript";
 
 import { randomUUID } from "crypto";
+import { Session } from "./session.model.js";
 
 @Table({
     tableName: "users",
@@ -41,4 +43,9 @@ export class User extends Model {
         allowNull: false,
     })
     declare password: string;
+
+    @HasMany(() => Session, {
+    foreignKey: "userId",
+    })
+    declare sessions: Session[];
 }

@@ -4,14 +4,14 @@ import { AppError } from "../error/AppError.js";
 import { HTTP_STATUS } from "../constants/httpStatus.js";
 
 export const userService = {
-    // GET /api/users
+    
     getAllUsers: async () => {
         return await User.findAll({
             attributes: ["id", "username", "email"],
         });
     },
 
-    // GET /api/users/:id
+    
     getUserById: async (id: string, loggedInUserId: string) => {
         if (id !== loggedInUserId) {
             throw new AppError(
@@ -31,7 +31,7 @@ export const userService = {
         return user;
     },
 
-    // PUT /api/users/:id
+    
     updateUser: async (
         id: string,
         updateDetails: { username?: string; email?: string },
@@ -85,7 +85,7 @@ export const userService = {
         };
     },
 
-    // DELETE /api/users/:id
+   
     deleteUser: async (id: string, loggedInUserId: string) => {
         if (id !== loggedInUserId) {
             throw new AppError(
