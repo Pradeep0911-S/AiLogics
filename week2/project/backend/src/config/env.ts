@@ -11,7 +11,7 @@ const getEnv = (key: string): string => {
 
   return value;
 };
-
+ 
 export const ENV = {
   PORT: Number(getEnv("PORT")) || 5000,
 
@@ -22,5 +22,5 @@ export const ENV = {
   DB_PORT: Number(getEnv("DB_PORT")),
 
   JWT_SECRET: getEnv("JWT_SECRET"),
-  JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || "15m",
+  JWT_EXPIRES_IN: getEnv("JWT_EXPIRES_IN") || "15m",
 };

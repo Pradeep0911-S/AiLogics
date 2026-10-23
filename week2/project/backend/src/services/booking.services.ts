@@ -1,4 +1,3 @@
-
 import { Booking } from "../models/booking.model.js";
 import { Service } from "../models/services.model.js";
 import { User } from "../models/users.model.js";
@@ -22,6 +21,7 @@ const denyAccess = () =>
   new AppError(HTTP_STATUS.FORBIDDEN, "You cannot access this booking");
 
 export const bookingService = {
+  // Create a booking
   create: async (customerId: string, input: CreateBookingInput) => {
     const service = await Service.findByPk(input.serviceId);
 
@@ -36,6 +36,7 @@ export const bookingService = {
     });
   },
 
+  // Get bookings based on the user's role
   findAll: async (userId: string, role: string) => {
     let where = {};
 
@@ -54,6 +55,7 @@ export const bookingService = {
     });
   },
 
+  // Get one booking by ID
   findById: async (id: string, userId: string, role: string) => {
     const booking = await Booking.findByPk(id, {
       include: bookingIncludes,
@@ -74,6 +76,7 @@ export const bookingService = {
     return booking;
   },
 
+  // Get the current user's bookings
   findMine: async (userId: string, role: string) => {
     if (role === "ADMIN") {
       return Booking.findAll({
@@ -98,6 +101,7 @@ export const bookingService = {
     });
   },
 
+  // Assign a booking to an active staff member
   assign: async (
     id: string,
     input: AssignBookingInput,
@@ -141,13 +145,17 @@ export const bookingService = {
       );
     }
 
-    await booking.update({ assignedUserId: staff.id });
+    await booking.update({
+      assignedUserId: staff.id,
+      status: BOOKING_STATUS.ASSIGNED,
+    });
 
     return Booking.findByPk(booking.id, {
       include: bookingIncludes,
     });
   },
 
+  // Update booking status according to the allowed workflow
   updateStatus: async (
     id: string,
     input: UpdateBookingStatusInput,
@@ -164,27 +172,36 @@ export const bookingService = {
       throw new AppError(HTTP_STATUS.NOT_FOUND, "Booking not found");
     }
 
+    // Staff can only update bookings assigned to them
     if (role === "USER" && booking.assignedUserId !== userId) {
       throw denyAccess();
     }
 
-    if (
-      booking.status === BOOKING_STATUS.COMPLETED ||
-      booking.status === BOOKING_STATUS.CANCELLED
-    ) {
+    // Define valid status transitions
+    const allowedTransitions: Record<string, string[]> = {
+      [BOOKING_STATUS.ASSIGNED]: [BOOKING_STATUS.IN_PROGRESS],
+      [BOOKING_STATUS.IN_PROGRESS]: [BOOKING_STATUS.COMPLETED],
+    };
+
+    const allowedStatuses = allowedTransitions[booking.status] ?? [];
+
+    if (!allowedStatuses.includes(input.status)) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "This booking status cannot be changed"
+        `Cannot change booking status from ${booking.status} to ${input.status}`
       );
     }
 
-    await booking.update({ status: input.status });
+    await booking.update({
+      status: input.status,
+    });
 
     return Booking.findByPk(booking.id, {
       include: bookingIncludes,
     });
   },
 
+  // Cancel a booking
   cancel: async (id: string, userId: string, role: string) => {
     if (role !== "ADMIN" && role !== "CUSTOMER") {
       throw denyAccess();
@@ -196,6 +213,7 @@ export const bookingService = {
       throw new AppError(HTTP_STATUS.NOT_FOUND, "Booking not found");
     }
 
+    // Customers can cancel only their own bookings
     if (role === "CUSTOMER" && booking.customerId !== userId) {
       throw denyAccess();
     }

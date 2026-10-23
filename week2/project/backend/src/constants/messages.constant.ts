@@ -14,4 +14,13 @@ export const MESSAGES = {
   UNAUTHORIZED: "Unauthorized access",
 
   INTERNAL_SERVER_ERROR: "Internal server error",
+
+  VALIDATION_FAILED: "Validation failed",
+
+  INVALID_TOKEN: "Invalid or expired token",
+
+  FORBIDDEN: "Access denied",
+  
+  ROUTE_NOT_FOUND: "Route not found",
+
 } as const;

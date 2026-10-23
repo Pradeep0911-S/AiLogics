@@ -1,6 +1,8 @@
 import { Request, Response, NextFunction } from "express";
 import { AppError } from "./app-error";
 import { HTTP_STATUS } from "../constants/http-status.constant";
+import { errorResponse } from "../utils/response";
+import { MESSAGES } from "../constants/messages.constant";
 
 export const errorHandler = (
   error: Error,
@@ -9,14 +11,12 @@ export const errorHandler = (
   _next: NextFunction
 ) => {
   if (error instanceof AppError) {
-    return res.status(error.statusCode).json({
-      success: false,
-      message: error.message,
-    });
-  }
+  return errorResponse(res, error.statusCode, error.message);
+}
 
-  return res.status(HTTP_STATUS.INTERNAL_SERVER_ERROR).json({
-    success: false,
-    message: "Internal Server Error",
-  });
+return errorResponse(
+  res,
+  HTTP_STATUS.INTERNAL_SERVER_ERROR,
+  MESSAGES.INTERNAL_SERVER_ERROR
+);
 };

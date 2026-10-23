@@ -14,12 +14,23 @@ import type {
 export const authService = {
   register: async (input: RegisterInput) => {
     const email = input.email;
+    const name = input.name;
 
     const existingUser = await User.findOne({
+      where: { name },
+    });
+    const existingEmail = await User.findOne({
       where: { email },
     });
 
     if (existingUser) {
+      throw new AppError(
+        HTTP_STATUS.BAD_REQUEST,
+        "User with this name already exists"
+      );
+    }
+
+    if (existingEmail) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
         "Email is already registered"

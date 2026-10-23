@@ -26,14 +26,14 @@ export const registerSchema = z.object({
   name: nameSchema,
   email: emailSchema,
   password: passwordSchema,
-});
+}).strict();
 
 export const loginSchema = z.object({
   email: emailSchema,
   password: z
     .string()
     .min(1, "Password is required"),
-});
+}).strict();
 
 export type RegisterInput = z.infer<
   typeof registerSchema

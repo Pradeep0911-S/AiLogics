@@ -85,7 +85,7 @@ export async function authenticationMiddleware(
     next(
       new AppError(
         HTTP_STATUS.UNAUTHORIZED,
-        "Invalid or expired token"
+        MESSAGES.INVALID_TOKEN
       )
     );
   }

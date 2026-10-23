@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { AppError } from "../error/app-error";
 import { HTTP_STATUS } from "../constants/http-status.constant";
+import { MESSAGES } from "../constants/messages.constant";
 
 export const notFound = (
   _req: Request,
@@ -10,7 +11,7 @@ export const notFound = (
   next(
     new AppError(
       HTTP_STATUS.NOT_FOUND,
-      "Route not found"
+      MESSAGES.ROUTE_NOT_FOUND
     )
   );
 };

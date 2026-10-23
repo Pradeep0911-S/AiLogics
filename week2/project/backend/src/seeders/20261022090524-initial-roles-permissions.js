@@ -1,4 +1,3 @@
-
 "use strict";
 
 const { randomUUID } = require("crypto");
@@ -10,10 +9,12 @@ const PERMISSIONS = [
   "users:read",
   "users:update",
   "users:delete",
+
   "services:create",
   "services:read",
   "services:update",
   "services:delete",
+
   "bookings:create",
   "bookings:read",
   "bookings:assign",
@@ -23,12 +24,13 @@ const PERMISSIONS = [
 
 const ROLE_PERMISSIONS = {
   ADMIN: PERMISSIONS,
+
   USER: [
     "services:read",
     "bookings:read",
-    "bookings:assign",
     "bookings:update_status",
   ],
+
   CUSTOMER: [
     "services:read",
     "bookings:create",
@@ -37,7 +39,6 @@ const ROLE_PERMISSIONS = {
   ],
 };
 
-/** @type {import('sequelize-cli').Seeder} */
 module.exports = {
   async up(queryInterface) {
     const now = new Date();
@@ -64,7 +65,7 @@ module.exports = {
       }))
     );
 
-    // Fetch inserted roles and permissions
+    // Retrieve inserted roles and permissions
     const [roles] = await queryInterface.sequelize.query(
       'SELECT id, name FROM "roles"'
     );
@@ -73,15 +74,19 @@ module.exports = {
       'SELECT id, name FROM "permissions"'
     );
 
+    // Create lookup maps
     const roleIds = Object.fromEntries(
       roles.map((role) => [role.name, role.id])
     );
 
     const permissionIds = Object.fromEntries(
-      permissions.map((permission) => [permission.name, permission.id])
+      permissions.map((permission) => [
+        permission.name,
+        permission.id,
+      ])
     );
 
-    // Create role-permission mappings
+    // Build role-permission mappings
     const rolePermissionRows = [];
 
     for (const [roleName, permissionNames] of Object.entries(
@@ -98,6 +103,7 @@ module.exports = {
       }
     }
 
+    // Insert role-permission mappings
     await queryInterface.bulkInsert(
       "role_permissions",
       rolePermissionRows
@@ -105,6 +111,7 @@ module.exports = {
   },
 
   async down(queryInterface) {
+    // Delete mappings before deleting their related records
     await queryInterface.bulkDelete("role_permissions", null, {});
     await queryInterface.bulkDelete("permissions", null, {});
     await queryInterface.bulkDelete("roles", null, {});

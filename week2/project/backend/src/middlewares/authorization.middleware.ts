@@ -27,7 +27,7 @@ export function requirePermission(permissionName: string) {
       if (!role) {
         throw new AppError(
           HTTP_STATUS.FORBIDDEN,
-          "Access denied"
+          MESSAGES.FORBIDDEN
         );
       }
 
@@ -38,7 +38,7 @@ export function requirePermission(permissionName: string) {
       if (!hasPermission) {
         throw new AppError(
           HTTP_STATUS.FORBIDDEN,
-          "You do not have permission to perform this action"
+          MESSAGES.FORBIDDEN
         );
       }
 
