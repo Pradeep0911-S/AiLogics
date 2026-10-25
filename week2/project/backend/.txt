@@ -1,0 +1,26 @@
+customer
+{
+  "name" : "test789",
+  "email": "test22@gmail.com",
+  "password" : "Pradeep@123"
+}
+
+
+{
+  "name" : "test188",
+  "email": "test44@gmail.com",
+  "password" : "Pradeep@123"
+}
+
+user
+{
+  "name" : "test789",
+  "email": "test33@gmail.com",
+  "password" : "Pradeep@123"
+}
+
+{
+  "name" : "test188",
+  "email": "test55@gmail.com",
+  "password" : "Pradeep@123"
+}
