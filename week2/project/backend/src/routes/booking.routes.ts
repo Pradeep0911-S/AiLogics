@@ -3,7 +3,7 @@ import { Router } from "express";
 import { bookingController } from "../controllers/booking.controller.js";
 import { authenticationMiddleware } from "../middlewares/authentication.middleware.js";
 import { requirePermission } from "../middlewares/authorization.middleware.js";
-import { validate } from "../middlewares/auth.validation.js";
+import { validate } from "../validation/response.zod.validation.js";
 import {
   createBookingSchema,
   assignBookingSchema,
@@ -83,27 +83,27 @@ bookingRoutes.get(
   asyncHandler(bookingController.findAll)
 );
 
-/**
- * @swagger
- * /api/bookings/mine:
- *   get:
- *     summary: Get the authenticated user's bookings
- *     tags: [Bookings]
- *     security:
- *       - bearerAuth: []
- *     responses:
- *       "200":
- *         description: User bookings retrieved successfully
- *       "401":
- *         description: Authentication required
- *       "403":
- *         description: Permission denied
- */
-bookingRoutes.get(
-  "/mine",
-  requirePermission(PERMISSIONS.READ_BOOKINGS),
-  asyncHandler(bookingController.findMine)
-);
+// /**
+//  * @swagger
+//  * /api/bookings/mine:
+//  *   get:
+//  *     summary: Get the authenticated user's bookings
+//  *     tags: [Bookings]
+//  *     security:
+//  *       - bearerAuth: []
+//  *     responses:
+//  *       "200":
+//  *         description: User bookings retrieved successfully
+//  *       "401":
+//  *         description: Authentication required
+//  *       "403":
+//  *         description: Permission denied
+//  */
+// bookingRoutes.get(
+//   "/mine",
+//   requirePermission(PERMISSIONS.READ_BOOKINGS),
+//   asyncHandler(bookingController.findMine)
+// );
 
 /**
  * @swagger

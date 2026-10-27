@@ -3,7 +3,7 @@ import { Op } from "sequelize";
 import { User } from "../models/users.model.js";
 import { Role } from "../models/roles.model.js";
 import { AppError } from "../error/app-error.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { hashPassword } from "../utils/bcrypt.js";
 import type {
   CreateUserInput,
@@ -23,14 +23,14 @@ export const userService = {
       );
     }
 
-    const staffRole = await Role.findOne({
+    const userRole = await Role.findOne({
       where: { name: "USER" },
     });
 
-    if (!staffRole) {
+    if (!userRole) {
       throw new AppError(
         HTTP_STATUS.INTERNAL_SERVER_ERROR,
-        "Staff role is not configured"
+        "user role is not configured"
       );
     }
 
@@ -40,7 +40,7 @@ export const userService = {
       name: input.name,
       email: input.email,
       password: hashedPassword,
-      roleId: staffRole.id,
+      roleId: userRole.id,
       isActive: true,
     });
 
@@ -121,7 +121,8 @@ export const userService = {
     if (!user) {
       throw new AppError(HTTP_STATUS.NOT_FOUND, "User not found");
     }
-
+    
     await user.destroy();
+    await user.update({ isActive: false });
   },
 };

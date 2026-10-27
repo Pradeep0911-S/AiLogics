@@ -2,12 +2,12 @@
 import { Booking } from "../models/booking.model.js";
 import { Service } from "../models/services.model.js";
 import { User } from "../models/users.model.js";
-import { BOOKING_STATUS } from "../constants/booking-status.constant.js";
+import { BOOKING_STATUS } from "../constants/bookingStatus.constant.js";
 
 export const dashboardService = {
   getStatistics: async () => {
     const [
-      totalUsers,
+      totalPersons,
       activeUsers,
       inactiveUsers,
       totalServices,
@@ -60,7 +60,7 @@ export const dashboardService = {
 
     return {
       users: {
-        total: totalUsers,
+        total: totalPersons,
         active: activeUsers,
         inactive: inactiveUsers,
       },

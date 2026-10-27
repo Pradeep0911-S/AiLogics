@@ -9,13 +9,14 @@ import {
 } from "sequelize-typescript";
 
 import type { Optional } from "sequelize";
-import { BOOKING_STATUS } from "../constants/booking-status.constant.js";
+import { BOOKING_STATUS } from "../constants/bookingStatus.constant.js";
 import { User } from "./users.model.js";
 import { Service } from "./services.model.js";
 
 interface BookingAttributes {
   id: string;
   customerId: string;
+  service: string;
   serviceId: string;
   assignedUserId: string | null;
   status: string;

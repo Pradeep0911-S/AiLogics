@@ -1,7 +1,7 @@
 
 import type { Request, Response } from "express";
 import { serviceService } from "../services/service.services.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { successResponse } from "../utils/response.js";
 
 export const serviceController = {

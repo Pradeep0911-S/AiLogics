@@ -3,7 +3,7 @@ import { Router } from "express";
 import { userController } from "../controllers/user.controller.js";
 import { authenticationMiddleware } from "../middlewares/authentication.middleware.js";
 import { requirePermission } from "../middlewares/authorization.middleware.js";
-import { validate } from "../middlewares/auth.validation.js";
+import { validate } from "../validation/response.zod.validation.js";
 import {
   createUserSchema,
   updateUserSchema,

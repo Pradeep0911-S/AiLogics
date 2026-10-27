@@ -1,14 +1,20 @@
 customer
 {
-  "name" : "test789",
+  "name" : "test78",
   "email": "test22@gmail.com",
   "password" : "Pradeep@123"
-}
+} user inactive
 
 
 {
   "name" : "test188",
   "email": "test44@gmail.com",
+  "password" : "Pradeep@123"
+}
+
+{
+  "name" : "test1560",
+  "email": "test484@gmail.com",
   "password" : "Pradeep@123"
 }
 
@@ -22,5 +28,10 @@ user
 {
   "name" : "test188",
   "email": "test55@gmail.com",
+  "password" : "Pradeep@123"
+}
+{
+  "name" : "test45686",
+  "email": "test68754@gmail.com",
   "password" : "Pradeep@123"
 }

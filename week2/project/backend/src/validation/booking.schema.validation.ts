@@ -2,7 +2,7 @@
 import { z } from "zod";
 
 export const createBookingSchema = z.object({
-  serviceId: z.string().uuid("Invalid service ID"),
+  service: z.string(),
 });
 
 export const assignBookingSchema = z.object({

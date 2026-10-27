@@ -2,7 +2,7 @@
 import { Op } from "sequelize";
 import { Service } from "../models/services.model.js";
 import { AppError } from "../error/app-error.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import type {
   CreateServiceInput,
   UpdateServiceInput,

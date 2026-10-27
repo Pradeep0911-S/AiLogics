@@ -3,8 +3,8 @@ import { Service } from "../models/services.model.js";
 import { User } from "../models/users.model.js";
 import { Role } from "../models/roles.model.js";
 import { AppError } from "../error/app-error.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
-import { BOOKING_STATUS } from "../constants/booking-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
+import { BOOKING_STATUS } from "../constants/bookingStatus.constant.js";
 import type {
   CreateBookingInput,
   AssignBookingInput,
@@ -23,7 +23,7 @@ const denyAccess = () =>
 export const bookingService = {
   // Create a booking
   create: async (customerId: string, input: CreateBookingInput) => {
-    const service = await Service.findByPk(input.serviceId);
+    const service = await Service.findOne({ where: { name : input.service } });
 
     if (!service) {
       throw new AppError(HTTP_STATUS.NOT_FOUND, "Service not found");
@@ -31,7 +31,8 @@ export const bookingService = {
 
     return Booking.create({
       customerId,
-      serviceId: input.serviceId,
+      service: input.service,
+      serviceId: service.id,
       status: BOOKING_STATUS.PENDING,
     });
   },
@@ -77,29 +78,29 @@ export const bookingService = {
   },
 
   // Get the current user's bookings
-  findMine: async (userId: string, role: string) => {
-    if (role === "ADMIN") {
-      return Booking.findAll({
-        include: bookingIncludes,
-        order: [["createdAt", "DESC"]],
-      });
-    }
+  // findMine: async (userId: string, role: string) => {
+  //   if (role === "ADMIN") {
+  //     return Booking.findAll({
+  //       include: bookingIncludes,
+  //       order: [["createdAt", "DESC"]],
+  //     });
+  //   }
 
-    if (role !== "USER" && role !== "CUSTOMER") {
-      throw denyAccess();
-    }
+  //   if (role !== "USER" && role !== "CUSTOMER") {
+  //     throw denyAccess();
+  //   }
 
-    const where =
-      role === "USER"
-        ? { assignedUserId: userId }
-        : { customerId: userId };
+  //   const where =
+  //     role === "USER"
+  //       ? { assignedUserId: userId }
+  //       : { customerId: userId };
 
-    return Booking.findAll({
-      where,
-      include: bookingIncludes,
-      order: [["createdAt", "DESC"]],
-    });
-  },
+  //   return Booking.findAll({
+  //     where,
+  //     include: bookingIncludes,
+  //     order: [["createdAt", "DESC"]],
+  //   });
+  // },
 
   // Assign a booking to an active staff member
   assign: async (

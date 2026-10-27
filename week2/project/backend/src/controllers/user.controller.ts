@@ -2,7 +2,7 @@
 import type { Response } from "express";
 import type { AuthRequest } from "../middlewares/authentication.middleware.js";
 import { userService } from "../services/user.services.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { successResponse } from "../utils/response.js";
 
 export const userController = {

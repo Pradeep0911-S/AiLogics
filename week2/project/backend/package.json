@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit", "// " :["tells typescript compiler for project wide typecheck --noEmit it ensures the tyerros are reported " ],
     "start": "node dist/server.js",
-    "test": "echo \"Tests not implemented yet\"",
     "migrate": "sequelize-cli db:migrate",
     "migrate:status": "sequelize-cli db:migrate:status",
     "migrate:undo": "sequelize-cli db:migrate:undo",

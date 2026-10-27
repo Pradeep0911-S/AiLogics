@@ -1,9 +1,10 @@
 
 import type { Response } from "express";
 import { bookingService } from "../services/booking.services.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { successResponse } from "../utils/response.js";
 import type { AuthRequest } from "../middlewares/authentication.middleware.js";
+import { MESSAGES } from "../constants/messages.constant.js";
 
 export const bookingController = {
   create: async (req: AuthRequest, res: Response) => {
@@ -15,7 +16,7 @@ export const bookingController = {
     return successResponse(
       res,
       HTTP_STATUS.CREATED,
-      "Booking created successfully",
+      MESSAGES.BOOKING_CREATED,
       booking
     );
   },
@@ -34,19 +35,19 @@ export const bookingController = {
     );
   },
 
-  findMine: async (req: AuthRequest, res: Response) => {
-    const bookings = await bookingService.findMine(
-      req.user!.id,
-      req.user!.role
-    );
+  // findMine: async (req: AuthRequest, res: Response) => {
+  //   const bookings = await bookingService.findMine(
+  //     req.user!.id,
+  //     req.user!.role
+  //   );
 
-    return successResponse(
-      res,
-      HTTP_STATUS.OK,
-      "Your bookings retrieved successfully",
-      bookings
-    );
-  },
+  //   return successResponse(
+  //     res,
+  //     HTTP_STATUS.OK,
+  //     "Your bookings retrieved successfully",
+  //     bookings
+  //   );
+  // },
 
   findById: async (req: AuthRequest, res: Response) => {
     const booking = await bookingService.findById(
@@ -69,7 +70,7 @@ export const bookingController = {
       req.body,
       req.user!.role
     );
-
+``
     return successResponse(
       res,
       HTTP_STATUS.OK,

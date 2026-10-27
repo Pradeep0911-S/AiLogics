@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import { AppError } from "./app-error";
-import { HTTP_STATUS } from "../constants/http-status.constant";
+import { HTTP_STATUS } from "../constants/httpStatus.constant";
 import { errorResponse } from "../utils/response";
 import { MESSAGES } from "../constants/messages.constant";
 

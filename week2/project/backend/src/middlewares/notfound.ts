@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { AppError } from "../error/app-error";
-import { HTTP_STATUS } from "../constants/http-status.constant";
+import { HTTP_STATUS } from "../constants/httpStatus.constant";
 import { MESSAGES } from "../constants/messages.constant";
 
 export const notFound = (

@@ -1,7 +1,7 @@
 
 import type { Request, Response, NextFunction } from "express";
 import type { ZodType } from "zod";
-import { HTTP_STATUS } from "../constants/http-status.constant.js"
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js"
 import { MESSAGES } from "../constants/messages.constant.js";
 
 export function validate(schema: ZodType) {

@@ -1,11 +1,12 @@
 
 import { Router } from "express";
 import { authController } from "../controllers/auth.controller.js";
-import { validate } from "../middlewares/auth.validation.js";
+import { validate } from "../validation/response.zod.validation.js";
 import {
   registerSchema,
   loginSchema,
 } from "../validation/auth.schema.validation.js";
+import { asyncHandler } from "../utils/async-handler.js";
 
 const authRoutes = Router();
 
@@ -60,7 +61,7 @@ const authRoutes = Router();
 authRoutes.post(
   "/register",
   validate(registerSchema),
-  authController.register
+  asyncHandler(authController.register)
 );
 
 /**
@@ -100,7 +101,7 @@ authRoutes.post(
 authRoutes.post(
   "/login",
   validate(loginSchema),
-  authController.login
+  asyncHandler(authController.login)
 );
 
 export default authRoutes;

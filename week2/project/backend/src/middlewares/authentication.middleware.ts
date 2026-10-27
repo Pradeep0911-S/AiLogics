@@ -1,7 +1,7 @@
 
 import type { Request, Response, NextFunction } from "express";
 import { AppError } from "../error/app-error.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 import { verifyToken } from "../utils/jwt.js";
 import { User } from "../models/users.model.js";

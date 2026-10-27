@@ -1,6 +1,8 @@
 export const MESSAGES = {
   USER_CREATED: "User created successfully",
 
+  USER_REGISTERED_SUCCESSFULLY: "User registered successfully",
+
   LOGIN_SUCCESS: "Login successful",
 
   BOOKING_CREATED: "Booking created successfully",

@@ -2,7 +2,7 @@
 import type { Response, NextFunction } from "express";
 import type { AuthRequest } from "./authentication.middleware.js";
 import { AppError } from "../error/app-error.js";
-import { HTTP_STATUS } from "../constants/http-status.constant.js";
+import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 import { Role } from "../models/roles.model.js";
 
