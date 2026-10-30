@@ -1,6 +1,6 @@
 
 import type { Request, Response, NextFunction } from "express";
-import { AppError } from "../error/app-error.js";
+import { AppError } from "../error/appError.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 import { verifyToken } from "../utils/jwt.js";

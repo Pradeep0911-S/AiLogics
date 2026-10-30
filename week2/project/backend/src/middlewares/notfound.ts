@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { AppError } from "../error/app-error";
+import { AppError } from "../error/appError";
 import { HTTP_STATUS } from "../constants/httpStatus.constant";
 import { MESSAGES } from "../constants/messages.constant";
 

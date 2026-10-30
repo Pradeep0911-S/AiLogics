@@ -69,6 +69,18 @@ export class Booking extends Model<
   })
   declare status: string;
 
+  @Column({
+    type: DataType.STRING(255),
+    allowNull : true,
+  })
+  declare createdBy: string;
+
+  @Column({
+    type: DataType.STRING(255),
+    allowNull : true ,
+  })
+  declare updatedBy: string;
+
   @BelongsTo(() => User, "customerId")
   declare customer: User;
 

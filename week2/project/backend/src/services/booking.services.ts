@@ -2,7 +2,7 @@ import { Booking } from "../models/booking.model.js";
 import { Service } from "../models/services.model.js";
 import { User } from "../models/users.model.js";
 import { Role } from "../models/roles.model.js";
-import { AppError } from "../error/app-error.js";
+import { AppError } from "../error/appError.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { BOOKING_STATUS } from "../constants/bookingStatus.constant.js";
 import type {

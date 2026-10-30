@@ -9,7 +9,7 @@ import {
   updateUserSchema,
 } from "../validation/user.schema.validation.js";
 import { PERMISSIONS } from "../constants/permissions.constant.js";
-import { asyncHandler } from "../utils/async-handler.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 
 const userRoutes = Router();
 

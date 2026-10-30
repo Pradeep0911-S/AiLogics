@@ -41,6 +41,18 @@ export class Service extends Model<
   })
   declare name: string;
 
+  @Column({
+    type: DataType.STRING(255),
+    allowNull : true,
+  })
+  declare createdBy: string;
+
+  @Column({
+    type: DataType.STRING(255),
+    allowNull : true ,
+  })
+  declare updatedBy: string;
+
   @HasMany(() => Booking)
   declare bookings: Booking[];
 }

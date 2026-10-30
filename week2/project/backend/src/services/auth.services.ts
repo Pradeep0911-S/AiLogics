@@ -1,7 +1,7 @@
 
 import { User } from "../models/users.model.js";
 import { Role } from "../models/roles.model.js";
-import { AppError } from "../error/app-error.js";
+import { AppError } from "../error/appError.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 import { hashPassword, comparePassword } from "../utils/bcrypt.js";
@@ -107,6 +107,7 @@ export const authService = {
 
     const token = generateToken({
       userId: user.id,
+      roleId : user.roleId,
       role: user.role.name,
     });
 

@@ -10,6 +10,7 @@ export const sequelize = new Sequelize({
   username: ENV.DB_USER,
   password: ENV.DB_PASSWORD,
   models: Object.values(models),
+  logging: false,
 });
 
 export const connectDB = async (): Promise<void> => {

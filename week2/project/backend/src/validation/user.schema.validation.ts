@@ -23,7 +23,7 @@ export const createUserSchema = z.object({
   name: nameSchema,
   email: emailSchema,
   password: passwordSchema,
-});
+}).strict();
 
 export const updateUserSchema = z
   .object({

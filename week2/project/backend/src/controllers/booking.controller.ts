@@ -30,7 +30,7 @@ export const bookingController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Bookings retrieved successfully",
+      MESSAGES.BOOKING_RETRIVED,
       bookings
     );
   },
@@ -59,7 +59,7 @@ export const bookingController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Booking retrieved successfully",
+      MESSAGES.BOOKING_RETRIVED,
       booking
     );
   },
@@ -74,7 +74,7 @@ export const bookingController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Booking assigned successfully",
+      MESSAGES.BOOKING_ASSIGNED,
       booking
     );
   },
@@ -90,7 +90,7 @@ export const bookingController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Booking status updated successfully",
+      MESSAGES.BOOKING_UPDATED,
       booking
     );
   },
@@ -105,7 +105,7 @@ export const bookingController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Booking cancelled successfully",
+      MESSAGES.BOOKING_CANCLLED,
       booking
     );
   },

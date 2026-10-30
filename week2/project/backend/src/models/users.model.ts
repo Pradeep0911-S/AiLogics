@@ -71,6 +71,18 @@ export class User extends Model<UserAttributes, UserCreationAttributes> {
   })
   declare roleId: string;
 
+  @Column({
+    type: DataType.STRING(255),
+    allowNull : true,
+  })
+  declare createdBy: string;
+
+  @Column({
+    type: DataType.STRING(255),
+    allowNull : true ,
+  })
+  declare updatedBy: string;
+
   @BelongsTo(() => Role)
   declare role: Role;
 

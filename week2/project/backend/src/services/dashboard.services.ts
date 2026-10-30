@@ -21,7 +21,7 @@ export const dashboardService = {
     ] = await Promise.all([
       User.count(),
       User.count({ where: { isActive: true } }),
-      User.count({ where: { isActive: false } }),
+      User.count({ where: { isActive: false },paranoid: false }),
       Service.count(),
       Booking.count(),
       Booking.count({

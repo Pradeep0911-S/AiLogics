@@ -4,7 +4,7 @@ import { dashboardController } from "../controllers/dashboard.controller.js";
 import { authenticationMiddleware } from "../middlewares/authentication.middleware.js";
 import { requirePermission } from "../middlewares/authorization.middleware.js";
 import { PERMISSIONS } from "../constants/permissions.constant.js";
-import { asyncHandler } from "../utils/async-handler.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 
 const dashboardRoutes = Router();
 

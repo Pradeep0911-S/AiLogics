@@ -5,6 +5,8 @@ import { notFound } from "./middlewares/notfound";
 import { errorHandler } from "./error/error.handler";
 import swaggerUi from "swagger-ui-express";
 import { swaggerSpec } from "./swaggerconfig/swagger";
+import { successResponse } from "./utils/response";
+import { HTTP_STATUS } from "./constants/httpStatus.constant";
 
 export const createApp = () => {
   const app = express();
@@ -16,10 +18,13 @@ export const createApp = () => {
   app.use(express.urlencoded({ extended: true }));
 
   app.get("/", (_req: Request, res: Response) => {
-    res.status(200).json({
-      success: true,
-      message: "Service Booking Management API",
-    });
+    return successResponse(res,HTTP_STATUS.OK,"Service Booking management API")
+
+
+    // res.status(200).json({
+    //   success: true,s
+    //   message: "Service Booking Management API",
+    // });
   });
 
   app.use("/api", routes);

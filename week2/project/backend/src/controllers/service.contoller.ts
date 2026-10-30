@@ -3,6 +3,7 @@ import type { Request, Response } from "express";
 import { serviceService } from "../services/service.services.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { successResponse } from "../utils/response.js";
+import { MESSAGES } from "../constants/messages.constant.js";
 
 export const serviceController = {
   create: async (req: Request, res: Response) => {
@@ -11,7 +12,7 @@ export const serviceController = {
     return successResponse(
       res,
       HTTP_STATUS.CREATED,
-      "Service created successfully",
+      MESSAGES.SERVICE_CREATED,
       service
     );
   },
@@ -22,7 +23,7 @@ export const serviceController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Services retrieved successfully",
+      MESSAGES.SERVICE_RETRIVED,
       services
     );
   },
@@ -35,7 +36,7 @@ export const serviceController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Service retrieved successfully",
+      MESSAGES.SERVICE_RETRIVED,
       service
     );
   },
@@ -49,7 +50,7 @@ export const serviceController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Service updated successfully",
+      MESSAGES.SERVICE_UPDATED,
       service
     );
   },
@@ -60,7 +61,7 @@ export const serviceController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Service deleted successfully"
+      MESSAGES.SERVICE_DELETED
     );
   },
 };

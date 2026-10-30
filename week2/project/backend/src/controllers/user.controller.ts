@@ -4,6 +4,7 @@ import type { AuthRequest } from "../middlewares/authentication.middleware.js";
 import { userService } from "../services/user.services.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { successResponse } from "../utils/response.js";
+import { MESSAGES } from "../constants/messages.constant.js";
 
 export const userController = {
   create: async (req: AuthRequest, res: Response) => {
@@ -12,7 +13,7 @@ export const userController = {
     return successResponse(
       res,
       HTTP_STATUS.CREATED,
-      "Staff user created successfully",
+      MESSAGES.USER_CREATED,
       user
     );
   },
@@ -23,7 +24,7 @@ export const userController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "Users retrieved successfully",
+      MESSAGES.USER_DETAILS,
       users
     );
   },
@@ -34,7 +35,7 @@ export const userController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "User retrieved successfully",
+      MESSAGES.USER_DETAILS,
       user
     );
   },
@@ -48,7 +49,7 @@ export const userController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "User updated successfully",
+      MESSAGES.USER_UPDATE,
       user
     );
   },
@@ -62,7 +63,7 @@ export const userController = {
     return successResponse(
       res,
       HTTP_STATUS.OK,
-      "User deleted successfully"
+      MESSAGES.USER_DELETED
     );
   },
 };

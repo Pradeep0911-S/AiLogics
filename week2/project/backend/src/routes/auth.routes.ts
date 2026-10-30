@@ -6,7 +6,7 @@ import {
   registerSchema,
   loginSchema,
 } from "../validation/auth.schema.validation.js";
-import { asyncHandler } from "../utils/async-handler.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 
 const authRoutes = Router();
 
