@@ -8,7 +8,7 @@ import { MESSAGES } from "../constants/messages.constant.js";
 
 export const userController = {
   create: async (req: AuthRequest, res: Response) => {
-    const user = await userService.create(req.body);
+    const user = await userService.create(req.body,req.user!.id as string);
 
     return successResponse(
       res,
@@ -43,7 +43,8 @@ export const userController = {
   update: async (req: AuthRequest, res: Response) => {
     const user = await userService.update(
       req.params.id as string,
-      req.body
+      req.body,
+      req.user!.id as string
     );
 
     return successResponse(
@@ -57,7 +58,7 @@ export const userController = {
   delete: async (req: AuthRequest, res: Response) => {
     await userService.delete(
       req.params.id as string,
-      req.user!.id
+      req.user!.id as string
     );
 
     return successResponse(

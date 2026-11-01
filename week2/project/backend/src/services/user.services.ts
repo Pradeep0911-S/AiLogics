@@ -9,9 +9,11 @@ import type {
   CreateUserInput,
   UpdateUserInput,
 } from "../validation/user.schema.validation.js";
+import { MESSAGES } from "../constants/messages.constant.js";
+import { ROLES } from "../constants/roles.constant.js";
 
 export const userService = {
-  create: async (input: CreateUserInput) => {
+  create: async (input: CreateUserInput,currentUserId : string) => {
     const existingUser = await User.findOne({
       where: { email: input.email },
     });
@@ -19,18 +21,18 @@ export const userService = {
     if (existingUser) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "A user with this email already exists"
+        MESSAGES.EMAIL_EXISTS
       );
     }
 
     const userRole = await Role.findOne({
-      where: { name: "USER" },
+      where: { name: ROLES.USER },
     });
 
     if (!userRole) {
       throw new AppError(
         HTTP_STATUS.INTERNAL_SERVER_ERROR,
-        "user role is not configured"
+        MESSAGES.ROLE_NOT_FOUND
       );
     }
 
@@ -42,6 +44,7 @@ export const userService = {
       password: hashedPassword,
       roleId: userRole.id,
       isActive: true,
+      createdBy: currentUserId
     });
 
     return {
@@ -68,17 +71,23 @@ export const userService = {
     });
 
     if (!user) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "User not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.USER_NOT_FOUND);
     }
 
     return user;
   },
 
-  update: async (id: string, input: UpdateUserInput) => {
+  update: async (id: string, input: UpdateUserInput,currentUserId : string) => {
     const user = await User.findByPk(id);
 
     if (!user) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "User not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.USER_NOT_FOUND);
+    }
+    if (id === currentUserId && input.isActive !== undefined) {
+      throw new AppError(
+        HTTP_STATUS.FORBIDDEN,
+        MESSAGES.FORBIDDEN
+      );
     }
 
     if (input.email) {
@@ -92,12 +101,12 @@ export const userService = {
       if (existingUser) {
         throw new AppError(
           HTTP_STATUS.BAD_REQUEST,
-          "A user with this email already exists"
+          MESSAGES.EMAIL_EXISTS
         );
       }
     }
 
-    await user.update(input);
+    await user.update({...input, updatedBy: currentUserId });
 
     return {
       id: user.id,
@@ -105,6 +114,7 @@ export const userService = {
       email: user.email,
       isActive: user.isActive,
       roleId: user.roleId,
+      updatedAt: user.updatedAt,
     };
   },
 
@@ -112,17 +122,18 @@ export const userService = {
     if (id === currentUserId) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "You cannot delete your own account"
+        MESSAGES.CANNOT_DELETE_SELF
       );
     }
 
     const user = await User.findByPk(id);
 
     if (!user) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "User not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.USER_NOT_FOUND);
     }
     
+    await user.update({ isActive: false, updatedBy: currentUserId });
     await user.destroy();
-    await user.update({ isActive: false });
+    
   },
 };

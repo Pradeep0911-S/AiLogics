@@ -13,6 +13,8 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 
 const serviceRoutes = Router();
 
+serviceRoutes.use(authenticationMiddleware);
+
 /**
  * @swagger
  * tags:
@@ -38,7 +40,6 @@ const serviceRoutes = Router();
  */
 serviceRoutes.get(
   "/",
-  authenticationMiddleware,
   requirePermission(PERMISSIONS.READ_SERVICES),
   asyncHandler(serviceController.findAll)
 );
@@ -70,7 +71,6 @@ serviceRoutes.get(
  */
 serviceRoutes.get(
   "/:id",
-  authenticationMiddleware,
   requirePermission(PERMISSIONS.READ_SERVICES),
   asyncHandler(serviceController.findById)
 );
@@ -109,7 +109,6 @@ serviceRoutes.get(
  */
 serviceRoutes.post(
   "/",
-  authenticationMiddleware,
   requirePermission(PERMISSIONS.CREATE_SERVICE),
   validate(createServiceSchema),
   asyncHandler(serviceController.create)
@@ -158,7 +157,6 @@ serviceRoutes.post(
  */
 serviceRoutes.patch(
   "/:id",
-  authenticationMiddleware,
   requirePermission(PERMISSIONS.UPDATE_SERVICE),
   validate(updateServiceSchema),
   asyncHandler(serviceController.update)
@@ -191,7 +189,6 @@ serviceRoutes.patch(
  */
 serviceRoutes.delete(
   "/:id",
-  authenticationMiddleware,
   requirePermission(PERMISSIONS.DELETE_SERVICE),
   asyncHandler(serviceController.delete)
 );

@@ -5,6 +5,7 @@ import { AppError } from "../error/appError.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 import { Role } from "../models/roles.model.js";
+import { ROLES } from "../constants/roles.constant";
 
 export function requirePermission(permissionName: string) {
   return async (
@@ -46,5 +47,76 @@ export function requirePermission(permissionName: string) {
     } catch (error) {
       next(error);
     }
+  };
+}
+
+
+export function requirePemissionOrSelf(permissionName: string) {
+  return async (
+    req: AuthRequest,
+    res: Response,
+    next: NextFunction
+  ): Promise<void> => {
+    try {
+      if (!req.user) {
+        throw new AppError(
+          HTTP_STATUS.UNAUTHORIZED,
+          MESSAGES.UNAUTHORIZED
+        );
+      }
+      if (req.user.id === req.params.id) {
+        return next();
+      }
+      const role = await Role.findByPk(req.user.roleId, {
+        include: ["permissions"],
+      });
+      if (!role) {
+        throw new AppError(
+          HTTP_STATUS.FORBIDDEN,
+          MESSAGES.FORBIDDEN
+        );
+      }
+      const hasPermission = role.permissions?.some(
+        (permission) => permission.name === permissionName
+      );
+      if (!hasPermission) {
+        throw new AppError(
+          HTTP_STATUS.FORBIDDEN,
+          MESSAGES.FORBIDDEN
+        );
+      }
+      next();
+    } catch (error) {
+      next(error);
+    }
+  };
+}
+
+
+export function requireRole(...allowedRoles: string[]) {
+  return (
+    req: AuthRequest,
+    res: Response,
+    next: NextFunction
+  ): void => {
+    if (!req.user) {
+      return next(
+        new AppError(
+          HTTP_STATUS.UNAUTHORIZED,
+          MESSAGES.UNAUTHORIZED
+        )
+      );
+    }
+
+    if (!allowedRoles.includes(req.user.role)) {
+      return next(
+        new AppError(
+          HTTP_STATUS.FORBIDDEN,
+          MESSAGES.FORBIDDEN
+        )
+      );
+    }
+
+    next();
   };
 }

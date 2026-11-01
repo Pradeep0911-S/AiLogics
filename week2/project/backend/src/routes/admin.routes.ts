@@ -4,14 +4,16 @@ import { PERMISSIONS } from "../constants/permissions.constant";
 import { validate } from "../validation/response.zod.validation";
 import { createUserSchema } from "../validation/user.schema.validation";
 import { asyncHandler } from "../utils/asyncHandler";
-import { rolesPermissionController } from "../controllers/rolesPermission.controller";
+import { adminController } from "../controllers/admin.controller";
+import { authenticationMiddleware } from "../middlewares/authentication.middleware";
 
-const rolesPermissionRoutes = Router();
+const adminRoutes = Router();
 
-rolesPermissionRoutes.post("/admin",
+adminRoutes.use(authenticationMiddleware);
+
+adminRoutes.post("/createadmin",
     requirePermission(PERMISSIONS.CREATE_USER),
     validate(createUserSchema),
-    asyncHandler(rolesPermissionController.create));
+    asyncHandler(adminController.create));
 
-
-rolesPermissionRoutes.delete
+export default adminRoutes;

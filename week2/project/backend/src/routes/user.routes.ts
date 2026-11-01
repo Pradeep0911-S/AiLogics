@@ -2,7 +2,7 @@
 import { Router } from "express";
 import { userController } from "../controllers/user.controller.js";
 import { authenticationMiddleware } from "../middlewares/authentication.middleware.js";
-import { requirePermission } from "../middlewares/authorization.middleware.js";
+import { requirePermission, requirePemissionOrSelf} from "../middlewares/authorization.middleware.js";
 import { validate } from "../validation/response.zod.validation.js";
 import {
   createUserSchema,
@@ -121,7 +121,7 @@ userRoutes.get(
  */
 userRoutes.get(
   "/:id",
-  requirePermission(PERMISSIONS.READ_USERS),
+  requirePemissionOrSelf(PERMISSIONS.READ_USERS),
   asyncHandler(userController.findById)
 );
 
@@ -173,7 +173,7 @@ userRoutes.get(
  */
 userRoutes.patch(
   "/:id",
-  requirePermission(PERMISSIONS.UPDATE_USER),
+  requirePemissionOrSelf(PERMISSIONS.UPDATE_USER),
   validate(updateUserSchema),
   asyncHandler(userController.update)
 );

@@ -7,9 +7,10 @@ import type {
   CreateServiceInput,
   UpdateServiceInput,
 } from "../validation/service.schema.validation.js";
+import { MESSAGES } from "../constants/messages.constant.js";
 
 export const serviceService = {
-  create: async (input: CreateServiceInput) => {
+  create: async (input: CreateServiceInput,currentUserId : string) => {
     const existingService = await Service.findOne({
       where: { name: input.name },
     });
@@ -17,12 +18,13 @@ export const serviceService = {
     if (existingService) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "A service with this name already exists"
+        MESSAGES.SERVICE_EXISTS
       );
     }
 
     const service = await Service.create({
       name: input.name,
+      createdBy: currentUserId,
     });
 
     return service;
@@ -42,20 +44,20 @@ export const serviceService = {
     if (!service) {
       throw new AppError(
         HTTP_STATUS.NOT_FOUND,
-        "Service not found"
+        MESSAGES.SERVICE_NOT_FOUND
       );
     }
 
     return service;
   },
 
-  update: async (id: string, input: UpdateServiceInput) => {
+  update: async (id: string, input: UpdateServiceInput, currentUserId: string) => {
     const service = await Service.findByPk(id);
 
     if (!service) {
       throw new AppError(
         HTTP_STATUS.NOT_FOUND,
-        "Service not found"
+        MESSAGES.SERVICE_NOT_FOUND
       );
     }
 
@@ -69,27 +71,29 @@ export const serviceService = {
     if (existingService) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "A service with this name already exists"
+        MESSAGES.SERVICE_EXISTS
       );
     }
 
     await service.update({
       name: input.name,
+      updatedBy: currentUserId,
     });
 
     return service;
   },
 
-  delete: async (id: string) => {
+  delete: async (id: string,currentUserId : string) => {
     const service = await Service.findByPk(id);
 
     if (!service) {
       throw new AppError(
         HTTP_STATUS.NOT_FOUND,
-        "Service not found"
+        MESSAGES.SERVICE_NOT_FOUND
       );
     }
-
+    await service.update({ updatedBy: currentUserId });
     await service.destroy();
+    
   },
 };

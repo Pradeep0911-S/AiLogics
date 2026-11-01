@@ -20,10 +20,12 @@ interface BookingAttributes {
   serviceId: string;
   assignedUserId: string | null;
   status: string;
+  createdBy: string | null;
+  updatedBy: string | null;
 }
 
 interface BookingCreationAttributes
-  extends Optional<BookingAttributes, "id" | "assignedUserId"> {}
+  extends Optional<BookingAttributes, "id" | "assignedUserId" |"createdBy"| "updatedBy"> {}
 
 @Table({
   tableName: "bookings",
@@ -70,16 +72,16 @@ export class Booking extends Model<
   declare status: string;
 
   @Column({
-    type: DataType.STRING(255),
+    type: DataType.UUID,
     allowNull : true,
   })
-  declare createdBy: string;
+  declare createdBy: string | null;
 
   @Column({
-    type: DataType.STRING(255),
+    type: DataType.UUID,
     allowNull : true ,
   })
-  declare updatedBy: string;
+  declare updatedBy: string | null;
 
   @BelongsTo(() => User, "customerId")
   declare customer: User;

@@ -8,13 +8,25 @@ import {
 
 import { Role } from "./roles.model.js";
 import { RolePermission } from "./role.permission.model.js";
+import type { Optional } from "sequelize";
+
+
+interface PermissionAttributes {
+  id: string;
+  name: string;
+  createdBy: string | null;
+  updatedBy: string | null;
+}
+
+interface PermissionCreationAttributes
+  extends Optional<PermissionAttributes, "id"|"createdBy"| "updatedBy"> {}
 
 @Table({
   tableName: "permissions",
   timestamps: true,
   paranoid: true,
 })
-export class Permission extends Model<Permission> {
+export class Permission extends Model<PermissionAttributes, PermissionCreationAttributes> {
   @Column({
     type: DataType.UUID,
     defaultValue: DataType.UUIDV4,
@@ -30,16 +42,16 @@ export class Permission extends Model<Permission> {
   declare name: string;
 
   @Column({
-    type: DataType.STRING(255),
+    type: DataType.UUID,
     allowNull : true,
   })
-  declare createdBy: string;
+  declare createdBy: string | null;
 
   @Column({
-    type: DataType.STRING(255),
+    type: DataType.UUID,
     allowNull : true ,
   })
-  declare updatedBy: string;
+  declare updatedBy: string | null;
 
   @BelongsToMany(() => Role, () => RolePermission)
   declare roles: Role[];

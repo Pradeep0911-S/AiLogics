@@ -10,6 +10,9 @@ import type {
   AssignBookingInput,
   UpdateBookingStatusInput,
 } from "../validation/booking.schema.validation.js";
+import { MESSAGES } from "../constants/messages.constant.js";
+import { ROLES } from "../constants/roles.constant.js";
+
 
 const bookingIncludes = [
   { model: User, as: "customer", attributes: ["id", "name", "email"] },
@@ -19,6 +22,7 @@ const bookingIncludes = [
 
 const denyAccess = () =>
   new AppError(HTTP_STATUS.FORBIDDEN, "You cannot access this booking");
+const validRoles: string[] = [ROLES.ADMIN, ROLES.USER, ROLES.CUSTOMER];
 
 export const bookingService = {
   // Create a booking
@@ -26,7 +30,7 @@ export const bookingService = {
     const service = await Service.findOne({ where: { name : input.service } });
 
     if (!service) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "Service not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.SERVICE_NOT_FOUND);
     }
 
     return Booking.create({
@@ -34,6 +38,7 @@ export const bookingService = {
       service: input.service,
       serviceId: service.id,
       status: BOOKING_STATUS.PENDING,
+      createdBy: customerId
     });
   },
 
@@ -41,11 +46,11 @@ export const bookingService = {
   findAll: async (userId: string, role: string) => {
     let where = {};
 
-    if (role === "USER") {
+    if (role === ROLES.USER) {
       where = { assignedUserId: userId };
-    } else if (role === "CUSTOMER") {
+    } else if (role === ROLES.CUSTOMER) {
       where = { customerId: userId };
-    } else if (role !== "ADMIN") {
+    } else if (role !== ROLES.ADMIN) {
       throw denyAccess();
     }
 
@@ -63,13 +68,13 @@ export const bookingService = {
     });
 
     if (!booking) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "Booking not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.BOOKING_NOT_FOUND);
     }
 
     if (
-      (role === "CUSTOMER" && booking.customerId !== userId) ||
-      (role === "USER" && booking.assignedUserId !== userId) ||
-      !["ADMIN", "USER", "CUSTOMER"].includes(role)
+      (role === ROLES.CUSTOMER && booking.customerId !== userId) ||
+      (role === ROLES.USER && booking.assignedUserId !== userId) ||
+      !validRoles.includes(role)
     ) {
       throw denyAccess();
     }
@@ -79,19 +84,19 @@ export const bookingService = {
 
   // Get the current user's bookings
   // findMine: async (userId: string, role: string) => {
-  //   if (role === "ADMIN") {
+  //   if (role === ROLES.ADMIN) {
   //     return Booking.findAll({
   //       include: bookingIncludes,
   //       order: [["createdAt", "DESC"]],
   //     });
   //   }
 
-  //   if (role !== "USER" && role !== "CUSTOMER") {
+  //   if (role !== ROLES.USER && role !== ROLES.CUSTOMER) {
   //     throw denyAccess();
   //   }
 
   //   const where =
-  //     role === "USER"
+  //     role === ROLES.USER
   //       ? { assignedUserId: userId }
   //       : { customerId: userId };
 
@@ -106,16 +111,17 @@ export const bookingService = {
   assign: async (
     id: string,
     input: AssignBookingInput,
-    role: string
+    role: string,
+    currentUserId: string
   ) => {
-    if (role !== "ADMIN") {
+    if (role !== ROLES.ADMIN) {
       throw denyAccess();
     }
 
     const booking = await Booking.findByPk(id);
 
     if (!booking) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "Booking not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.BOOKING_NOT_FOUND);
     }
 
     if (
@@ -124,12 +130,12 @@ export const bookingService = {
     ) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "This booking cannot be assigned"
+        MESSAGES.BOOKING_CANNOT_ASSIGNED
       );
     }
 
     const staffRole = await Role.findOne({
-      where: { name: "USER" },
+      where: { name: ROLES.USER },
     });
 
     const staff = await User.findByPk(input.assignedUserId);
@@ -149,6 +155,7 @@ export const bookingService = {
     await booking.update({
       assignedUserId: staff.id,
       status: BOOKING_STATUS.ASSIGNED,
+      updatedBy: currentUserId,
     });
 
     return Booking.findByPk(booking.id, {
@@ -163,18 +170,18 @@ export const bookingService = {
     userId: string,
     role: string
   ) => {
-    if (role !== "ADMIN" && role !== "USER") {
+    if (role !== ROLES.ADMIN && role !== ROLES.USER) {
       throw denyAccess();
     }
 
     const booking = await Booking.findByPk(id);
 
     if (!booking) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "Booking not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.BOOKING_NOT_FOUND);
     }
 
     // Staff can only update bookings assigned to them
-    if (role === "USER" && booking.assignedUserId !== userId) {
+    if (role === ROLES.USER && booking.assignedUserId !== userId) {
       throw denyAccess();
     }
 
@@ -195,6 +202,7 @@ export const bookingService = {
 
     await booking.update({
       status: input.status,
+      updatedBy: userId
     });
 
     return Booking.findByPk(booking.id, {
@@ -204,18 +212,18 @@ export const bookingService = {
 
   // Cancel a booking
   cancel: async (id: string, userId: string, role: string) => {
-    if (role !== "ADMIN" && role !== "CUSTOMER") {
+    if (role !== ROLES.ADMIN && role !== ROLES.CUSTOMER) {
       throw denyAccess();
     }
 
     const booking = await Booking.findByPk(id);
 
     if (!booking) {
-      throw new AppError(HTTP_STATUS.NOT_FOUND, "Booking not found");
+      throw new AppError(HTTP_STATUS.NOT_FOUND, MESSAGES.BOOKING_NOT_FOUND);
     }
 
     // Customers can cancel only their own bookings
-    if (role === "CUSTOMER" && booking.customerId !== userId) {
+    if (role === ROLES.CUSTOMER && booking.customerId !== userId) {
       throw denyAccess();
     }
 
@@ -225,12 +233,13 @@ export const bookingService = {
     ) {
       throw new AppError(
         HTTP_STATUS.BAD_REQUEST,
-        "This booking cannot be cancelled"
+        MESSAGES.BOOKING_CANNOT_CANCELLED
       );
     }
 
     await booking.update({
       status: BOOKING_STATUS.CANCELLED,
+      updatedBy: userId
     });
 
     return Booking.findByPk(booking.id, {

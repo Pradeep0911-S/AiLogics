@@ -1,13 +1,14 @@
 
-import type { Request, Response } from "express";
+import type { Response } from "express";
+import type {AuthRequest} from "../middlewares/authentication.middleware.js";
 import { serviceService } from "../services/service.services.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { successResponse } from "../utils/response.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 
 export const serviceController = {
-  create: async (req: Request, res: Response) => {
-    const service = await serviceService.create(req.body);
+  create: async (req: AuthRequest, res: Response) => {
+    const service = await serviceService.create(req.body, req.user!.id as string);
 
     return successResponse(
       res,
@@ -17,7 +18,7 @@ export const serviceController = {
     );
   },
 
-  findAll: async (_req: Request, res: Response) => {
+  findAll: async (_req: AuthRequest, res: Response) => {
     const services = await serviceService.findAll();
 
     return successResponse(
@@ -28,7 +29,7 @@ export const serviceController = {
     );
   },
 
-  findById: async (req: Request, res: Response) => {
+  findById: async (req: AuthRequest, res: Response) => {
     const service = await serviceService.findById(
       req.params.id as string
     );
@@ -41,10 +42,11 @@ export const serviceController = {
     );
   },
 
-  update: async (req: Request, res: Response) => {
+  update: async (req: AuthRequest, res: Response) => {
     const service = await serviceService.update(
       req.params.id as string,
-      req.body
+      req.body,
+      req.user!.id as string
     );
 
     return successResponse(
@@ -55,8 +57,8 @@ export const serviceController = {
     );
   },
 
-  delete: async (req: Request, res: Response) => {
-    await serviceService.delete(req.params.id as string);
+  delete: async (req: AuthRequest, res: Response) => {
+    await serviceService.delete(req.params.id as string, req.user!.id as string);
 
     return successResponse(
       res,

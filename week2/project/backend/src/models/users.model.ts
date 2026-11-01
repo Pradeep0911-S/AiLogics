@@ -20,10 +20,12 @@ interface UserAttributes {
   password: string;
   isActive: boolean;
   roleId: string;
+  createdBy: string | null;
+  updatedBy: string | null;
 }
 
 interface UserCreationAttributes
-  extends Optional<UserAttributes, "id" | "isActive"> {}
+  extends Optional<UserAttributes, "id" | "isActive" |"createdBy"| "updatedBy"> {}
 
 @Table({
   tableName: "users",
@@ -72,16 +74,16 @@ export class User extends Model<UserAttributes, UserCreationAttributes> {
   declare roleId: string;
 
   @Column({
-    type: DataType.STRING(255),
+    type: DataType.UUID,
     allowNull : true,
   })
-  declare createdBy: string;
+  declare createdBy: string | null;
 
   @Column({
-    type: DataType.STRING(255),
+    type: DataType.UUID,
     allowNull : true ,
   })
-  declare updatedBy: string;
+  declare updatedBy: string | null;
 
   @BelongsTo(() => Role)
   declare role: Role;

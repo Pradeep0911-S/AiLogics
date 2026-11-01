@@ -68,7 +68,8 @@ export const bookingController = {
     const booking = await bookingService.assign(
       req.params.id as string,
       req.body,
-      req.user!.role
+      req.user!.role,
+      req.user!.id as string
     );
 ``
     return successResponse(
