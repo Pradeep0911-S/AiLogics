@@ -9,7 +9,8 @@ const nameSchema = z
 const emailSchema = z
   .string()
   .trim()
-  .email("Please enter a valid email address");
+  .email("Please enter a valid email address")
+  .toLowerCase();
 
 const passwordSchema = z
   .string()

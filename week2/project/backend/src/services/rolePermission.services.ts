@@ -29,13 +29,24 @@ export const rolePermissionService = {
         roleId: input.roleId,
         permissionId: input.permissionId,
       },
+      paranoid : false
     });
 
     if (existingAssignment) {
-      throw new AppError(
-        HTTP_STATUS.BAD_REQUEST,
-        MESSAGES.PERMISSION_ALREADY_ASSIGNED
-      );
+      if(existingAssignment.deletedAt === null){
+          throw new AppError(
+          HTTP_STATUS.BAD_REQUEST,
+          MESSAGES.PERMISSION_ALREADY_ASSIGNED
+        );
+      }
+      await existingAssignment.restore();
+      await existingAssignment.update({
+        updatedBy : currentUserId,
+      })
+      return {
+        roleId : input.roleId,
+        permissionId : input.permissionId
+      };
     }
 
     await models.RolePermission.create({

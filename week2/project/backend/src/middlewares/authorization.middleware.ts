@@ -5,7 +5,7 @@ import { AppError } from "../error/appError.js";
 import { HTTP_STATUS } from "../constants/httpStatus.constant.js";
 import { MESSAGES } from "../constants/messages.constant.js";
 import { Role } from "../models/roles.model.js";
-import { ROLES } from "../constants/roles.constant";
+
 
 export function requirePermission(permissionName: string) {
   return async (

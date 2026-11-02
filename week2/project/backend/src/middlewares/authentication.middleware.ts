@@ -59,7 +59,7 @@ export async function authenticationMiddleware(
           model: Role,
           as: "role",
         },
-      ],
+      ]
     });
 
     if (!user || !user.isActive || !user.role) {

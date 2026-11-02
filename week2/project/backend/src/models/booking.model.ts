@@ -16,7 +16,6 @@ import { Service } from "./services.model.js";
 interface BookingAttributes {
   id: string;
   customerId: string;
-  service: string;
   serviceId: string;
   assignedUserId: string | null;
   status: string;

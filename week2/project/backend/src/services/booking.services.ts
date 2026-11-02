@@ -35,7 +35,6 @@ export const bookingService = {
 
     return Booking.create({
       customerId,
-      service: input.service,
       serviceId: service.id,
       status: BOOKING_STATUS.PENDING,
       createdBy: customerId

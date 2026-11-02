@@ -11,6 +11,50 @@ const roleRouter = Router();
 
 roleRouter.use(authenticationMiddleware);
 
+/**
+ * @swagger
+ * tags:
+ *   - name: Roles
+ *     description: Manage user roles and access levels
+ */
+
+/**
+ * @swagger
+ * /api/admin/roles:
+ *   post:
+ *     summary: Create a new role
+ *     description: Creates a new role. Only authenticated ADMIN users can perform this operation.
+ *     tags: [Roles]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - name
+ *             properties:
+ *               name:
+ *                 type: string
+ *                 minLength: 3
+ *                 maxLength: 50
+ *                 example: MANAGER
+ *                 description: Role name. Leading and trailing spaces are trimmed and the value is converted to uppercase.
+ *           example:
+ *             name: MANAGER
+ *     responses:
+ *       "201":
+ *         description: Role created successfully
+ *       "400":
+ *         description: Invalid request data or role already exists
+ *       "401":
+ *         description: Authentication required or invalid token
+ *       "403":
+ *         description: Only ADMIN users are allowed to create roles
+ */
+
 
 roleRouter.post(
     "/",

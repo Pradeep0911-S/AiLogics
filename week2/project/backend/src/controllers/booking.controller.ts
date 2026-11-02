@@ -71,7 +71,6 @@ export const bookingController = {
       req.user!.role,
       req.user!.id as string
     );
-``
     return successResponse(
       res,
       HTTP_STATUS.OK,

@@ -34,7 +34,7 @@ export const authService = {
 
     if (!customerRole) {
       throw new AppError(
-        HTTP_STATUS.INTERNAL_SERVER_ERROR,
+        HTTP_STATUS.NOT_FOUND,
         MESSAGES.ROLE_NOT_FOUND
       );
     }
@@ -61,6 +61,7 @@ export const authService = {
 
     const user = await User.findOne({
       where: { email },
+      paranoid : false,
       include: [
         {
           model: Role,
@@ -69,10 +70,10 @@ export const authService = {
       ],
     });
 
-    if (!user) {
+    if (!user || !user.role) {
       throw new AppError(
         HTTP_STATUS.UNAUTHORIZED,
-        MESSAGES.INVALID_CREDENTIALS
+        MESSAGES.UNAUTHORIZED
       );
     }
 
@@ -90,15 +91,13 @@ export const authService = {
 
     if (!isPasswordValid) {
       throw new AppError(
-        HTTP_STATUS.UNAUTHORIZED,
+        HTTP_STATUS.BAD_REQUEST,
         MESSAGES.INVALID_CREDENTIALS
       );
     }
 
     const token = generateToken({
       userId: user.id,
-      roleId : user.roleId,
-      role: user.role.name,
     });
 
     return {

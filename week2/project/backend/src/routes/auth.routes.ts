@@ -95,6 +95,8 @@ authRoutes.post(
  *         description: Invalid request data
  *       "401":
  *         description: Invalid credentials
+ *       "403":
+ *         description: Forbidden
  *       "500":
  *         description: Internal server error
  */

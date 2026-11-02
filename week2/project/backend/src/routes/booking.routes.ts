@@ -42,7 +42,7 @@ bookingRoutes.use(authenticationMiddleware);
  *             properties:
  *               service:
  *                 type: string
- *                 example:service1
+ *                 example: service1
  *     responses:
  *       "201":
  *         description: Booking created successfully
