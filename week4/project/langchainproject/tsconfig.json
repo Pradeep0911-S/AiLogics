@@ -1,0 +1,41 @@
+
+{
+  "compilerOptions": {
+    // JavaScript version
+    "target": "ES2022",
+
+    // Node.js ES Module configuration
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Source and build directories
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Type checking
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Module compatibility
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+
+    // Node.js types
+    "types": ["node"],
+
+    // Build options
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Additional safety
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
