@@ -31,17 +31,41 @@ export const getPostgresTools = {
 
     return queryTool;
   },
-
-  listtools: async ()=>{
+  
+  modifyTool : async() =>{
     const tools = await mcpAdapter.listTools();
-    return tools.map((tool)=>({
+    const queryTool = tools.find((tool) => tool.name === "postgres__postgres_mcp_modify");
+    if(!queryTool){
+      throw new Error("Modifying tool is missing in PostgreSQL MCP");
+    }
+    return queryTool;
+  },
+
+  list: async ()=>{
+    const tools = await mcpAdapter.listTools();
+    const queryToolsinfo = tools.map((tool)=>({
         name: tool.name,
         description : tool.description,
+        schema : tool.schema,
     }));
-  }
+    console.dir(queryToolsinfo, { depth: null });
+    return tools;
+  },
+  listTools: async () => {
+    const tools = await mcpAdapter.listTools();
 
+    const modifyTool = tools.find(
+        (tool) => tool.name === "postgres__postgres_mcp_modify"
+    );
+
+    console.dir(modifyTool, { depth: null });
+
+    return tools;
+},
 };
 
-getPostgresTools.listtools();
+// getPostgresTools.list();
+
+
 
 

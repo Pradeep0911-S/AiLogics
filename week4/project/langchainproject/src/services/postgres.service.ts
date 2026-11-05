@@ -1,6 +1,6 @@
 
 import { getPostgresTools } from "../mcp/mcp.tools.js";
-import { ENV } from "../config/env.js";
+import { ENV } from "../config/env.config.js";
 
 export const postgresService = {
 
@@ -56,5 +56,16 @@ export const postgresService = {
       validationQueries: [],
     });
   },
+
+  executeModify : async (statement: string)=>{
+    const modifyTool = await getPostgresTools.modifyTool();
+    if(!postgresService.connectionId){
+      throw new Error("PostgreSQL is not connected");
+    }
+    return await modifyTool.invoke({
+      connectionId : postgresService.connectionId,
+      statement
+    })
+  }
 
 };
