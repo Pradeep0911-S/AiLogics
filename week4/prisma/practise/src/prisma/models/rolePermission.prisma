@@ -1,0 +1,18 @@
+model RolePermission{
+    roleId String @db.Uuid
+    role Role @relation(fields: [roleId],references: [id])
+
+    permissionId String @db.Uuid
+    permission Permission @relation(fields: [permissionId],references: [id])
+
+
+    createdAt DateTime @default(now()) @db.Timestamptz(6)
+    updatedAt DateTime @updatedAt @db.Timestamptz(6)
+    deletedAt DateTime? @db.Timestamptz(6)
+    createdBy String? @db.Uuid
+    updatedBy String? @db.Uuid
+
+    @@id(name : "role_permission_id",fields: [roleId,permissionId])
+
+    @@map("role_permission")
+}
