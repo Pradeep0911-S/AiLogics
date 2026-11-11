@@ -1,0 +1,25 @@
+{
+  "name": "lib1resume-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "mime": "^1.6.0",
+    "resume-parser": "^1.1.0",
+    "textract": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/textract": "^2.4.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
