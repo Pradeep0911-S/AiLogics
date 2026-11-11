@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "resume-parser-ats": {
+      "source": "dhanushk-offl/resume-parser",
+      "sourceType": "github",
+      "skillPath": "resume-parser-ats/SKILL.md",
+      "computedHash": "850625a88042aa8697e9c5c152938692bbc9f21f7060f07fec6853ddd446767d"
+    }
+  }
+}
