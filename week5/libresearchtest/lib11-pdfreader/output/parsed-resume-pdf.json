@@ -1,0 +1,870 @@
+{
+  "fileName": "global_sample_resume.pdf",
+  "documentType": "pdf",
+  "totalPages": 3,
+  "pages": [
+    {
+      "pageNumber": 1,
+      "width": 37.205,
+      "height": 52.618,
+      "items": [
+        {
+          "text": "ALEXANDER MORGAN",
+          "x": 11.098,
+          "y": 3.241,
+          "width": 232.155
+        },
+        {
+          "text": "SENIOR SOFTWARE ENGINEER",
+          "x": 13.081,
+          "y": 4.303,
+          "width": 168.685
+        },
+        {
+          "text": "London, United Kingdom  ",
+          "x": 9.359,
+          "y": 5.334,
+          "width": 98.277
+        },
+        {
+          "text": "|",
+          "x": 15.501,
+          "y": 5.334,
+          "width": 2.21
+        },
+        {
+          "text": "  +1 202-555-0147  ",
+          "x": 15.64,
+          "y": 5.334,
+          "width": 74.426
+        },
+        {
+          "text": "|",
+          "x": 20.291,
+          "y": 5.334,
+          "width": 2.21
+        },
+        {
+          "text": "  alex.morgan@example.com",
+          "x": 20.429,
+          "y": 5.334,
+          "width": 110.662
+        },
+        {
+          "text": "LinkedIn: linkedin.com/in/alex-morgan-example  ",
+          "x": 7.61,
+          "y": 6.084,
+          "width": 182.342
+        },
+        {
+          "text": "|",
+          "x": 19.007,
+          "y": 6.084,
+          "width": 2.21
+        },
+        {
+          "text": "  GitHub: github.com/alexmorgan-example",
+          "x": 19.145,
+          "y": 6.084,
+          "width": 159.196
+        },
+        {
+          "text": "Portfolio: alexmorgan.example.com",
+          "x": 14.189,
+          "y": 6.834,
+          "width": 133.212
+        },
+        {
+          "text": "PROFESSIONAL SUMMARY",
+          "x": 2.782,
+          "y": 8.272,
+          "width": 140.007
+        },
+        {
+          "text": "Results-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web",
+          "x": 2.782,
+          "y": 9.341,
+          "width": 472.733
+        },
+        {
+          "text": "applications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background",
+          "x": 2.782,
+          "y": 10.091,
+          "width": 491.851
+        },
+        {
+          "text": "in JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application",
+          "x": 2.782,
+          "y": 10.841,
+          "width": 466.989
+        },
+        {
+          "text": "performance, and deliver reliable software solutions in Agile environments.",
+          "x": 2.782,
+          "y": 11.591,
+          "width": 283.43
+        },
+        {
+          "text": "CORE COMPETENCIES",
+          "x": 2.782,
+          "y": 13.022,
+          "width": 117.264
+        },
+        {
+          "text": "Full-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing •",
+          "x": 2.782,
+          "y": 14.091,
+          "width": 469.56
+        },
+        {
+          "text": "Database Design • CI/CD • Agile Project Management • Team Leadership • System Optimization",
+          "x": 2.782,
+          "y": 14.841,
+          "width": 367.16
+        },
+        {
+          "text": "TECHNICAL SKILLS",
+          "x": 2.782,
+          "y": 16.272,
+          "width": 100.915
+        },
+        {
+          "text": "Category",
+          "x": 2.72,
+          "y": 17.366,
+          "width": 34.672
+        },
+        {
+          "text": "Skills",
+          "x": 8.921,
+          "y": 17.366,
+          "width": 20.904
+        },
+        {
+          "text": "Programming",
+          "x": 2.72,
+          "y": 18.366,
+          "width": 48.008
+        },
+        {
+          "text": "JavaScript, TypeScript, Python, Java, SQL",
+          "x": 8.921,
+          "y": 18.366,
+          "width": 151.176
+        },
+        {
+          "text": "Frontend",
+          "x": 2.72,
+          "y": 19.366,
+          "width": 32.016
+        },
+        {
+          "text": "React, Next.js, HTML5, CSS3, Tailwind CSS",
+          "x": 8.921,
+          "y": 19.366,
+          "width": 158.264
+        },
+        {
+          "text": "Backend",
+          "x": 2.72,
+          "y": 20.366,
+          "width": 31.128
+        },
+        {
+          "text": "Node.js, Express.js, Django, NestJS",
+          "x": 8.921,
+          "y": 20.366,
+          "width": 128.488
+        },
+        {
+          "text": "Databases",
+          "x": 2.72,
+          "y": 21.366,
+          "width": 38.24
+        },
+        {
+          "text": "PostgreSQL, MongoDB, MySQL, Redis",
+          "x": 8.921,
+          "y": 21.366,
+          "width": 139.608
+        },
+        {
+          "text": "Cloud",
+          "x": 2.72,
+          "y": 22.366,
+          "width": 20.896
+        },
+        {
+          "text": "AWS, Azure, Google Cloud",
+          "x": 8.921,
+          "y": 22.366,
+          "width": 96.928
+        },
+        {
+          "text": "DevOps",
+          "x": 2.72,
+          "y": 23.366,
+          "width": 28.896
+        },
+        {
+          "text": "Docker, Kubernetes, Jenkins, GitHub Actions",
+          "x": 8.921,
+          "y": 23.366,
+          "width": 160.064
+        },
+        {
+          "text": "Tools",
+          "x": 2.72,
+          "y": 24.366,
+          "width": 19.56
+        },
+        {
+          "text": "Git, Jira, Postman, VS Code",
+          "x": 8.921,
+          "y": 24.366,
+          "width": 100.04
+        },
+        {
+          "text": "Testing",
+          "x": 2.72,
+          "y": 25.366,
+          "width": 26.232
+        },
+        {
+          "text": "Jest, Cypress, Mocha",
+          "x": 8.921,
+          "y": 25.366,
+          "width": 76.912
+        },
+        {
+          "text": "PROFESSIONAL EXPERIENCE",
+          "x": 2.782,
+          "y": 26.897,
+          "width": 153.447
+        },
+        {
+          "text": "Senior Software Engineer",
+          "x": 2.782,
+          "y": 27.966,
+          "width": 104.662
+        },
+        {
+          "text": " | GlobalTech Solutions Ltd. — London, United Kingdom",
+          "x": 9.324,
+          "y": 27.966,
+          "width": 213.521
+        },
+        {
+          "text": "January 2023 – Present",
+          "x": 2.782,
+          "y": 28.716,
+          "width": 91.306
+        },
+        {
+          "text": "• Designed and developed scalable web applications using React, Node.js, and TypeScript.",
+          "x": 3.095,
+          "y": 29.828,
+          "width": 339.1
+        },
+        {
+          "text": "• Built REST APIs supporting more than 100,000 monthly active users.",
+          "x": 3.095,
+          "y": 30.891,
+          "width": 262.055
+        },
+        {
+          "text": "• Improved API response times by 35% through database optimization and caching.",
+          "x": 3.095,
+          "y": 31.953000000000003,
+          "width": 310.624
+        },
+        {
+          "text": "• Implemented CI/CD pipelines using Docker and GitHub Actions.",
+          "x": 3.095,
+          "y": 33.016,
+          "width": 242.894
+        },
+        {
+          "text": "• Mentored a team of five junior developers.",
+          "x": 3.095,
+          "y": 34.078,
+          "width": 162.145
+        },
+        {
+          "text": "• Collaborated with product managers, designers, and QA engineers to deliver software releases.",
+          "x": 3.095,
+          "y": 35.141,
+          "width": 360.562
+        },
+        {
+          "text": "Software Engineer",
+          "x": 2.782,
+          "y": 36.216,
+          "width": 75.508
+        },
+        {
+          "text": " | Innovate Digital Systems — Manchester, United Kingdom",
+          "x": 7.502,
+          "y": 36.216,
+          "width": 225.922
+        },
+        {
+          "text": "June 2019 – December 2022",
+          "x": 2.782,
+          "y": 36.966,
+          "width": 110.906
+        },
+        {
+          "text": "• Developed frontend applications using React and Redux.",
+          "x": 3.095,
+          "y": 38.078,
+          "width": 217.249
+        },
+        {
+          "text": "• Built backend services using Node.js and Express.",
+          "x": 3.095,
+          "y": 39.141,
+          "width": 193.418
+        },
+        {
+          "text": "• Integrated third-party payment and authentication APIs.",
+          "x": 3.095,
+          "y": 40.203,
+          "width": 211.184
+        },
+        {
+          "text": "• Designed relational database schemas using PostgreSQL.",
+          "x": 3.095,
+          "y": 41.266,
+          "width": 222.844
+        },
+        {
+          "text": "• Reduced application loading time by 25%.",
+          "x": 3.095,
+          "y": 42.328,
+          "width": 161.683
+        },
+        {
+          "text": "• Participated in Agile ceremonies and code reviews.",
+          "x": 3.095,
+          "y": 43.391,
+          "width": 195.283
+        },
+        {
+          "text": "Junior Web Developer",
+          "x": 2.782,
+          "y": 44.466,
+          "width": 90.799
+        },
+        {
+          "text": " | Creative Web Technologies — Birmingham, United Kingdom",
+          "x": 8.457,
+          "y": 44.466,
+          "width": 237.859
+        },
+        {
+          "text": "July 2017 – May 2019",
+          "x": 2.782,
+          "y": 45.216,
+          "width": 84.134
+        },
+        {
+          "text": "• Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap.",
+          "x": 3.095,
+          "y": 46.328,
+          "width": 296.125
+        },
+        {
+          "text": "• Implemented reusable frontend components.",
+          "x": 3.095,
+          "y": 47.391,
+          "width": 171.956
+        },
+        {
+          "text": "• Fixed bugs and improved application usability.",
+          "x": 3.095,
+          "y": 48.453,
+          "width": 177.08
+        }
+      ]
+    },
+    {
+      "pageNumber": 2,
+      "width": 37.205,
+      "height": 52.618,
+      "items": [
+        {
+          "text": "• Worked with senior developers to deliver client projects.",
+          "x": 3.095,
+          "y": 2.453,
+          "width": 212.545
+        },
+        {
+          "text": "EDUCATION",
+          "x": 2.782,
+          "y": 3.8339999999999996,
+          "width": 62.412
+        },
+        {
+          "text": "Master of Science in Computer Science",
+          "x": 2.782,
+          "y": 4.903,
+          "width": 161.061
+        },
+        {
+          "text": " | University of Manchester — Manchester, United Kingdom",
+          "x": 12.849,
+          "y": 4.903,
+          "width": 225.913
+        },
+        {
+          "text": "September 2017 – September 2018",
+          "x": 2.782,
+          "y": 5.653,
+          "width": 136.723
+        },
+        {
+          "text": "Grade: Distinction",
+          "x": 2.782,
+          "y": 6.403,
+          "width": 68.344
+        },
+        {
+          "text": "Relevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems.",
+          "x": 2.782,
+          "y": 7.153,
+          "width": 451.19
+        },
+        {
+          "text": "Bachelor of Technology in Computer Science and Engineering",
+          "x": 2.782,
+          "y": 8.278,
+          "width": 255.669
+        },
+        {
+          "text": " | University of Delhi — Delhi, India",
+          "x": 18.762,
+          "y": 8.278,
+          "width": 132.707
+        },
+        {
+          "text": "August 2013 – May 2017",
+          "x": 2.782,
+          "y": 9.028,
+          "width": 95.615
+        },
+        {
+          "text": "Grade: First Class",
+          "x": 2.782,
+          "y": 9.778,
+          "width": 69.29
+        },
+        {
+          "text": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks.",
+          "x": 2.782,
+          "y": 10.528,
+          "width": 353.185
+        },
+        {
+          "text": "PROJECTS",
+          "x": 2.782,
+          "y": 11.959,
+          "width": 56.595
+        },
+        {
+          "text": "Smart Recruitment Management System",
+          "x": 2.782,
+          "y": 13.028,
+          "width": 164.871
+        },
+        {
+          "text": " | January 2024 – April 2024",
+          "x": 13.087,
+          "y": 13.028,
+          "width": 107.405
+        },
+        {
+          "text": "Technologies: React, Node.js, PostgreSQL, AWS, Python",
+          "x": 2.782,
+          "y": 13.778,
+          "width": 219.876
+        },
+        {
+          "text": "Developed a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate",
+          "x": 2.782,
+          "y": 14.528,
+          "width": 488.523
+        },
+        {
+          "text": "search functionality, and created REST APIs for job postings and applications.",
+          "x": 2.782,
+          "y": 15.277999999999999,
+          "width": 297.319
+        },
+        {
+          "text": "Project URL: https://example.com/recruitment-project",
+          "x": 2.782,
+          "y": 16.028,
+          "width": 202.16
+        },
+        {
+          "text": "E-Commerce Platform",
+          "x": 2.782,
+          "y": 17.153,
+          "width": 90.317
+        },
+        {
+          "text": " | March 2022 – August 2022",
+          "x": 8.427,
+          "y": 17.153,
+          "width": 110.278
+        },
+        {
+          "text": "Technologies: Next.js, Express.js, MongoDB, Redis",
+          "x": 2.782,
+          "y": 17.903,
+          "width": 196.433
+        },
+        {
+          "text": "Developed an e-commerce application with product search and filtering, integrated secure payment processing, and implemented",
+          "x": 2.782,
+          "y": 18.653,
+          "width": 491.843
+        },
+        {
+          "text": "caching to improve product retrieval performance.",
+          "x": 2.782,
+          "y": 19.403,
+          "width": 189.269
+        },
+        {
+          "text": "Project URL: https://example.com/ecommerce-project",
+          "x": 2.782,
+          "y": 20.153,
+          "width": 204.069
+        },
+        {
+          "text": "CERTIFICATIONS",
+          "x": 2.782,
+          "y": 21.584,
+          "width": 88.085
+        },
+        {
+          "text": "• AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024.",
+          "x": 3.095,
+          "y": 22.641,
+          "width": 299.384
+        },
+        {
+          "text": "• Professional Scrum Master I — Scrum.org, 2023.",
+          "x": 3.095,
+          "y": 23.703,
+          "width": 188.269
+        },
+        {
+          "text": "• Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022.",
+          "x": 3.095,
+          "y": 24.766,
+          "width": 227.48
+        },
+        {
+          "text": "• Meta Front-End Developer Professional Certificate — Coursera, 2021.",
+          "x": 3.095,
+          "y": 25.828,
+          "width": 266.238
+        },
+        {
+          "text": "ACHIEVEMENTS AND AWARDS",
+          "x": 2.782,
+          "y": 27.209,
+          "width": 159.243
+        },
+        {
+          "text": "• Engineering Excellence Award — GlobalTech Solutions, 2024.",
+          "x": 3.095,
+          "y": 28.266,
+          "width": 237.779
+        },
+        {
+          "text": "• Recognized for improving API performance by 35%, 2023.",
+          "x": 3.095,
+          "y": 29.328,
+          "width": 221.903
+        },
+        {
+          "text": "• First Place, University Software Development Competition, 2017.",
+          "x": 3.095,
+          "y": 30.391,
+          "width": 246.624
+        },
+        {
+          "text": "• Awarded academic merit scholarship during postgraduate studies, 2018.",
+          "x": 3.095,
+          "y": 31.453000000000003,
+          "width": 274.193
+        },
+        {
+          "text": "PUBLICATIONS AND RESEARCH",
+          "x": 2.782,
+          "y": 32.834,
+          "width": 166.246
+        },
+        {
+          "text": "Performance Optimization Techniques for Scalable Web Applications",
+          "x": 2.782,
+          "y": 33.903,
+          "width": 282.914
+        },
+        {
+          "text": "Published in: International Journal of Software Engineering Research, 2023.",
+          "x": 2.782,
+          "y": 34.653,
+          "width": 289.201
+        },
+        {
+          "text": "Research interests: Distributed systems, cloud computing, software performance optimization.",
+          "x": 2.782,
+          "y": 35.403,
+          "width": 357.502
+        },
+        {
+          "text": "VOLUNTEERING AND COMMUNITY INVOLVEMENT",
+          "x": 2.782,
+          "y": 36.834,
+          "width": 255.507
+        },
+        {
+          "text": "Technical Mentor — Code for Everyone",
+          "x": 2.782,
+          "y": 37.903,
+          "width": 160.571
+        },
+        {
+          "text": " | January 2022 – December 2023",
+          "x": 12.818,
+          "y": 37.903,
+          "width": 129.869
+        },
+        {
+          "text": "Mentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted",
+          "x": 2.782,
+          "y": 38.653,
+          "width": 459.825
+        },
+        {
+          "text": "beginners with open-source contributions.",
+          "x": 2.782,
+          "y": 39.403,
+          "width": 159.169
+        },
+        {
+          "text": "PROFESSIONAL MEMBERSHIPS",
+          "x": 2.782,
+          "y": 40.834,
+          "width": 163.937
+        },
+        {
+          "text": "• Association for Computing Machinery (ACM) — Professional Member, 2022–Present.",
+          "x": 3.095,
+          "y": 41.891,
+          "width": 322.711
+        },
+        {
+          "text": "• IEEE Computer Society — Member, 2021–Present.",
+          "x": 3.095,
+          "y": 42.953,
+          "width": 196.686
+        }
+      ]
+    },
+    {
+      "pageNumber": 3,
+      "width": 37.205,
+      "height": 52.618,
+      "items": [
+        {
+          "text": "LANGUAGES",
+          "x": 2.782,
+          "y": 2.584,
+          "width": 67.085
+        },
+        {
+          "text": "Language",
+          "x": 2.72,
+          "y": 3.678,
+          "width": 37.784
+        },
+        {
+          "text": "Proficiency",
+          "x": 14.236,
+          "y": 3.678,
+          "width": 43.128
+        },
+        {
+          "text": "English",
+          "x": 2.72,
+          "y": 4.678,
+          "width": 26.232
+        },
+        {
+          "text": "Fluent",
+          "x": 14.236,
+          "y": 4.678,
+          "width": 22.232
+        },
+        {
+          "text": "German",
+          "x": 2.72,
+          "y": 5.678,
+          "width": 28.896
+        },
+        {
+          "text": "Intermediate",
+          "x": 14.236,
+          "y": 5.678,
+          "width": 44.464
+        },
+        {
+          "text": "French",
+          "x": 2.72,
+          "y": 6.678,
+          "width": 24.896
+        },
+        {
+          "text": "Basic",
+          "x": 14.236,
+          "y": 6.678,
+          "width": 19.56
+        },
+        {
+          "text": "Hindi",
+          "x": 2.72,
+          "y": 7.678000000000001,
+          "width": 18.224
+        },
+        {
+          "text": "Native",
+          "x": 14.236,
+          "y": 7.678000000000001,
+          "width": 22.672
+        },
+        {
+          "text": "INTERESTS",
+          "x": 2.782,
+          "y": 9.209,
+          "width": 58.926
+        },
+        {
+          "text": "Open-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running.",
+          "x": 2.782,
+          "y": 10.278,
+          "width": 476.079
+        },
+        {
+          "text": "STRENGTHS",
+          "x": 2.782,
+          "y": 11.709,
+          "width": 64.754
+        },
+        {
+          "text": "• Strong analytical and problem-solving abilities.",
+          "x": 3.095,
+          "y": 12.766,
+          "width": 178.004
+        },
+        {
+          "text": "• Excellent communication and interpersonal skills.",
+          "x": 3.095,
+          "y": 13.828,
+          "width": 188.269
+        },
+        {
+          "text": "• Adaptability to new technologies and changing environments.",
+          "x": 3.095,
+          "y": 14.891,
+          "width": 233.125
+        },
+        {
+          "text": "• Team collaboration and leadership.",
+          "x": 3.095,
+          "y": 15.953,
+          "width": 136.466
+        },
+        {
+          "text": "• Time management and organizational skills.",
+          "x": 3.095,
+          "y": 17.016,
+          "width": 169.134
+        },
+        {
+          "text": "• Quick learner with a continuous improvement mindset.",
+          "x": 3.095,
+          "y": 18.078,
+          "width": 207.413
+        },
+        {
+          "text": "• Ability to work independently and under pressure.",
+          "x": 3.095,
+          "y": 19.141,
+          "width": 189.227
+        },
+        {
+          "text": "WEAKNESSES",
+          "x": 2.782,
+          "y": 20.522,
+          "width": 74.676
+        },
+        {
+          "text": "• Sometimes spend additional time ensuring work meets high-quality standards.",
+          "x": 3.095,
+          "y": 21.578,
+          "width": 295.655
+        },
+        {
+          "text": "• Occasionally find it challenging to delegate tasks.",
+          "x": 3.095,
+          "y": 22.641,
+          "width": 188.294
+        },
+        {
+          "text": "• Working on improving public speaking and presentation confidence.",
+          "x": 3.095,
+          "y": 23.703,
+          "width": 256.922
+        },
+        {
+          "text": "HOBBIES",
+          "x": 2.782,
+          "y": 25.084,
+          "width": 47.838
+        },
+        {
+          "text": "Reading technology and business books, developing personal coding projects, playing chess, travelling and exploring different",
+          "x": 2.782,
+          "y": 26.153,
+          "width": 479.923
+        },
+        {
+          "text": "cultures, playing badminton, and participating in technology communities and hackathons.",
+          "x": 2.782,
+          "y": 26.903,
+          "width": 341.773
+        },
+        {
+          "text": "REFERENCES",
+          "x": 2.782,
+          "y": 28.334,
+          "width": 71.757
+        },
+        {
+          "text": "Available upon request.",
+          "x": 2.782,
+          "y": 29.403,
+          "width": 89.87
+        }
+      ]
+    }
+  ],
+  "fullText": "ALEXANDER MORGAN SENIOR SOFTWARE ENGINEER London, United Kingdom   |   +1 202-555-0147   |   alex.morgan@example.com LinkedIn: linkedin.com/in/alex-morgan-example   |   GitHub: github.com/alexmorgan-example Portfolio: alexmorgan.example.com PROFESSIONAL SUMMARY Results-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web applications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background in JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application performance, and deliver reliable software solutions in Agile environments. CORE COMPETENCIES Full-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing • Database Design • CI/CD • Agile Project Management • Team Leadership • System Optimization TECHNICAL SKILLS Category Skills Programming JavaScript, TypeScript, Python, Java, SQL Frontend React, Next.js, HTML5, CSS3, Tailwind CSS Backend Node.js, Express.js, Django, NestJS Databases PostgreSQL, MongoDB, MySQL, Redis Cloud AWS, Azure, Google Cloud DevOps Docker, Kubernetes, Jenkins, GitHub Actions Tools Git, Jira, Postman, VS Code Testing Jest, Cypress, Mocha PROFESSIONAL EXPERIENCE Senior Software Engineer  | GlobalTech Solutions Ltd. — London, United Kingdom January 2023 – Present • Designed and developed scalable web applications using React, Node.js, and TypeScript. • Built REST APIs supporting more than 100,000 monthly active users. • Improved API response times by 35% through database optimization and caching. • Implemented CI/CD pipelines using Docker and GitHub Actions. • Mentored a team of five junior developers. • Collaborated with product managers, designers, and QA engineers to deliver software releases. Software Engineer  | Innovate Digital Systems — Manchester, United Kingdom June 2019 – December 2022 • Developed frontend applications using React and Redux. • Built backend services using Node.js and Express. • Integrated third-party payment and authentication APIs. • Designed relational database schemas using PostgreSQL. • Reduced application loading time by 25%. • Participated in Agile ceremonies and code reviews. Junior Web Developer  | Creative Web Technologies — Birmingham, United Kingdom July 2017 – May 2019 • Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap. • Implemented reusable frontend components. • Fixed bugs and improved application usability.\n• Worked with senior developers to deliver client projects. EDUCATION Master of Science in Computer Science  | University of Manchester — Manchester, United Kingdom September 2017 – September 2018 Grade: Distinction Relevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems. Bachelor of Technology in Computer Science and Engineering  | University of Delhi — Delhi, India August 2013 – May 2017 Grade: First Class Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks. PROJECTS Smart Recruitment Management System  | January 2024 – April 2024 Technologies: React, Node.js, PostgreSQL, AWS, Python Developed a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate search functionality, and created REST APIs for job postings and applications. Project URL: https://example.com/recruitment-project E-Commerce Platform  | March 2022 – August 2022 Technologies: Next.js, Express.js, MongoDB, Redis Developed an e-commerce application with product search and filtering, integrated secure payment processing, and implemented caching to improve product retrieval performance. Project URL: https://example.com/ecommerce-project CERTIFICATIONS • AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024. • Professional Scrum Master I — Scrum.org, 2023. • Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022. • Meta Front-End Developer Professional Certificate — Coursera, 2021. ACHIEVEMENTS AND AWARDS • Engineering Excellence Award — GlobalTech Solutions, 2024. • Recognized for improving API performance by 35%, 2023. • First Place, University Software Development Competition, 2017. • Awarded academic merit scholarship during postgraduate studies, 2018. PUBLICATIONS AND RESEARCH Performance Optimization Techniques for Scalable Web Applications Published in: International Journal of Software Engineering Research, 2023. Research interests: Distributed systems, cloud computing, software performance optimization. VOLUNTEERING AND COMMUNITY INVOLVEMENT Technical Mentor — Code for Everyone  | January 2022 – December 2023 Mentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted beginners with open-source contributions. PROFESSIONAL MEMBERSHIPS • Association for Computing Machinery (ACM) — Professional Member, 2022–Present. • IEEE Computer Society — Member, 2021–Present.\nLANGUAGES Language Proficiency English Fluent German Intermediate French Basic Hindi Native INTERESTS Open-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running. STRENGTHS • Strong analytical and problem-solving abilities. • Excellent communication and interpersonal skills. • Adaptability to new technologies and changing environments. • Team collaboration and leadership. • Time management and organizational skills. • Quick learner with a continuous improvement mindset. • Ability to work independently and under pressure. WEAKNESSES • Sometimes spend additional time ensuring work meets high-quality standards. • Occasionally find it challenging to delegate tasks. • Working on improving public speaking and presentation confidence. HOBBIES Reading technology and business books, developing personal coding projects, playing chess, travelling and exploring different cultures, playing badminton, and participating in technology communities and hackathons. REFERENCES Available upon request.",
+  "totalCharacters": 6127
+}

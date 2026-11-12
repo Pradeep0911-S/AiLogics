@@ -1,0 +1,3491 @@
+{
+  "fileName": "global_sample_resume.pdf",
+  "documentType": "pdf",
+  "metadata": {
+    "totalPages": 3,
+    "format": "PDF 1.4"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "extractedText": "ALEXANDER MORGAN\nSENIOR SOFTWARE ENGINEER\nLondon, United Kingdom  |  +1 202-555-0147  |  alex.morgan@example.com\nLinkedIn: linkedin.com/in/alex-morgan-example  |  GitHub: github.com/alexmorgan-example\nPortfolio: alexmorgan.example.com\nPROFESSIONAL SUMMARY\nResults-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web\napplications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background\nin JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application\nperformance, and deliver reliable software solutions in Agile environments.\nCORE COMPETENCIES\nFull-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing •\nDatabase Design • CI/CD • Agile Project Management • Team Leadership • System Optimization\nTECHNICAL SKILLS\nCategory\nSkills\nProgramming\nJavaScript, TypeScript, Python, Java, SQL\nFrontend\nReact, Next.js, HTML5, CSS3, Tailwind CSS\nBackend\nNode.js, Express.js, Django, NestJS\nDatabases\nPostgreSQL, MongoDB, MySQL, Redis\nCloud\nAWS, Azure, Google Cloud\nDevOps\nDocker, Kubernetes, Jenkins, GitHub Actions\nTools\nGit, Jira, Postman, VS Code\nTesting\nJest, Cypress, Mocha\nPROFESSIONAL EXPERIENCE\nSenior Software Engineer | GlobalTech Solutions Ltd. — London, United Kingdom\nJanuary 2023 – Present\n• Designed and developed scalable web applications using React, Node.js, and TypeScript.\n• Built REST APIs supporting more than 100,000 monthly active users.\n• Improved API response times by 35% through database optimization and caching.\n• Implemented CI/CD pipelines using Docker and GitHub Actions.\n• Mentored a team of five junior developers.\n• Collaborated with product managers, designers, and QA engineers to deliver software releases.\nSoftware Engineer | Innovate Digital Systems — Manchester, United Kingdom\nJune 2019 – December 2022\n• Developed frontend applications using React and Redux.\n• Built backend services using Node.js and Express.\n• Integrated third-party payment and authentication APIs.\n• Designed relational database schemas using PostgreSQL.\n• Reduced application loading time by 25%.\n• Participated in Agile ceremonies and code reviews.\nJunior Web Developer | Creative Web Technologies — Birmingham, United Kingdom\nJuly 2017 – May 2019\n• Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap.\n• Implemented reusable frontend components.\n• Fixed bugs and improved application usability.",
+      "structuredText": {
+        "blocks": [
+          {
+            "type": "text",
+            "bbox": {
+              "x": 181,
+              "y": 41,
+              "w": 232,
+              "h": 28
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 181,
+                  "y": 41,
+                  "w": 232,
+                  "h": 28,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 21
+                },
+                "x": 181,
+                "y": 63,
+                "text": "ALEXANDER MORGAN"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 213,
+              "y": 69,
+              "w": 168,
+              "h": 15
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 213,
+                  "y": 69,
+                  "w": 168,
+                  "h": 15,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 11
+                },
+                "x": 213,
+                "y": 80,
+                "text": "SENIOR SOFTWARE ENGINEER"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 125,
+              "y": 88,
+              "w": 343,
+              "h": 23
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 153,
+                  "y": 88,
+                  "w": 287,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 153,
+                "y": 97,
+                "text": "London, United Kingdom  |  +1 202-555-0147  |  alex.morgan@example.com"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 125,
+                  "y": 100,
+                  "w": 343,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 125,
+                "y": 109,
+                "text": "LinkedIn: linkedin.com/in/alex-morgan-example  |  GitHub: github.com/alexmorgan-example"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 231,
+              "y": 112,
+              "w": 133,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 231,
+                  "y": 112,
+                  "w": 133,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 231,
+                "y": 121,
+                "text": "Portfolio: alexmorgan.example.com"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 133,
+              "w": 140,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 133,
+                  "w": 140,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 144,
+                "text": "PROFESSIONAL SUMMARY"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 152,
+              "w": 491,
+              "h": 47
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 152,
+                  "w": 472,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 161,
+                "text": "Results-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 164,
+                  "w": 491,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 173,
+                "text": "applications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 176,
+                  "w": 466,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 185,
+                "text": "in JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 188,
+                  "w": 283,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 197,
+                "text": "performance, and deliver reliable software solutions in Agile environments."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 209,
+              "w": 117,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 209,
+                  "w": 117,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 220,
+                "text": "CORE COMPETENCIES"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 228,
+              "w": 469,
+              "h": 23
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 228,
+                  "w": 469,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 237,
+                "text": "Full-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing •"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 240,
+                  "w": 367,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 249,
+                "text": "Database Design • CI/CD • Agile Project Management • Team Leadership • System Optimization"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 261,
+              "w": 100,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 261,
+                  "w": 100,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 272,
+                "text": "TECHNICAL SKILLS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 281,
+              "w": 120,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 281,
+                  "w": 34,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 289,
+                "text": "Category"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 281,
+                  "w": 20,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 289,
+                "text": "Skills"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 297,
+              "w": 250,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 297,
+                  "w": 48,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 305,
+                "text": "Programming"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 297,
+                  "w": 151,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 305,
+                "text": "JavaScript, TypeScript, Python, Java, SQL"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 313,
+              "w": 257,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 313,
+                  "w": 32,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 321,
+                "text": "Frontend"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 313,
+                  "w": 158,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 321,
+                "text": "React, Next.js, HTML5, CSS3, Tailwind CSS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 329,
+              "w": 227,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 329,
+                  "w": 31,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 337,
+                "text": "Backend"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 329,
+                  "w": 128,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 337,
+                "text": "Node.js, Express.js, Django, NestJS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 345,
+              "w": 238,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 345,
+                  "w": 38,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 353,
+                "text": "Databases"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 345,
+                  "w": 139,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 353,
+                "text": "PostgreSQL, MongoDB, MySQL, Redis"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 361,
+              "w": 196,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 361,
+                  "w": 20,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 369,
+                "text": "Cloud"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 361,
+                  "w": 96,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 369,
+                "text": "AWS, Azure, Google Cloud"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 377,
+              "w": 259,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 377,
+                  "w": 28,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 385,
+                "text": "DevOps"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 377,
+                  "w": 160,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 385,
+                "text": "Docker, Kubernetes, Jenkins, GitHub Actions"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 393,
+              "w": 199,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 393,
+                  "w": 19,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 401,
+                "text": "Tools"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 393,
+                  "w": 100,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 401,
+                "text": "Git, Jira, Postman, VS Code"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 409,
+              "w": 176,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 409,
+                  "w": 26,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 417,
+                "text": "Testing"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 146,
+                  "y": 409,
+                  "w": 76,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 146,
+                "y": 417,
+                "text": "Jest, Cypress, Mocha"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 431,
+              "w": 153,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 431,
+                  "w": 153,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 442,
+                "text": "PROFESSIONAL EXPERIENCE"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 450,
+              "w": 318,
+              "h": 23
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 450,
+                  "w": 318,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 459,
+                "text": "Senior Software Engineer | GlobalTech Solutions Ltd. — London, United Kingdom"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 462,
+                  "w": 91,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Oblique",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "italic",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 471,
+                "text": "January 2023 – Present"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 480,
+              "w": 339,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 480,
+                  "w": 339,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 489,
+                "text": "• Designed and developed scalable web applications using React, Node.js, and TypeScript."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 497,
+              "w": 262,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 497,
+                  "w": 262,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 506,
+                "text": "• Built REST APIs supporting more than 100,000 monthly active users."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 514,
+              "w": 310,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 514,
+                  "w": 310,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 523,
+                "text": "• Improved API response times by 35% through database optimization and caching."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 531,
+              "w": 242,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 531,
+                  "w": 242,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 540,
+                "text": "• Implemented CI/CD pipelines using Docker and GitHub Actions."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 548,
+              "w": 162,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 548,
+                  "w": 162,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 557,
+                "text": "• Mentored a team of five junior developers."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 565,
+              "w": 360,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 565,
+                  "w": 360,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 574,
+                "text": "• Collaborated with product managers, designers, and QA engineers to deliver software releases."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 582,
+              "w": 301,
+              "h": 23
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 582,
+                  "w": 301,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 591,
+                "text": "Software Engineer | Innovate Digital Systems — Manchester, United Kingdom"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 594,
+                  "w": 110,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Oblique",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "italic",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 603,
+                "text": "June 2019 – December 2022"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 612,
+              "w": 217,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 612,
+                  "w": 217,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 621,
+                "text": "• Developed frontend applications using React and Redux."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 629,
+              "w": 193,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 629,
+                  "w": 193,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 638,
+                "text": "• Built backend services using Node.js and Express."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 646,
+              "w": 211,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 646,
+                  "w": 211,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 655,
+                "text": "• Integrated third-party payment and authentication APIs."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 663,
+              "w": 222,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 663,
+                  "w": 222,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 672,
+                "text": "• Designed relational database schemas using PostgreSQL."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 680,
+              "w": 161,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 680,
+                  "w": 161,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 689,
+                "text": "• Reduced application loading time by 25%."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 697,
+              "w": 195,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 697,
+                  "w": 195,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 706,
+                "text": "• Participated in Agile ceremonies and code reviews."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 714,
+              "w": 328,
+              "h": 23
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 714,
+                  "w": 328,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 723,
+                "text": "Junior Web Developer | Creative Web Technologies — Birmingham, United Kingdom"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 726,
+                  "w": 84,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Oblique",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "italic",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 735,
+                "text": "July 2017 – May 2019"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 744,
+              "w": 296,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 744,
+                  "w": 296,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 753,
+                "text": "• Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 761,
+              "w": 171,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 761,
+                  "w": 171,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 770,
+                "text": "• Implemented reusable frontend components."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 778,
+              "w": 177,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 778,
+                  "w": 177,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 787,
+                "text": "• Fixed bugs and improved application usability."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "extractedText": "• Worked with senior developers to deliver client projects.\nEDUCATION\nMaster of Science in Computer Science | University of Manchester — Manchester, United Kingdom\nSeptember 2017 – September 2018\nGrade: Distinction\nRelevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems.\nBachelor of Technology in Computer Science and Engineering | University of Delhi — Delhi, India\nAugust 2013 – May 2017\nGrade: First Class\nRelevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks.\nPROJECTS\nSmart Recruitment Management System | January 2024 – April 2024\nTechnologies: React, Node.js, PostgreSQL, AWS, Python\nDeveloped a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate\nsearch functionality, and created REST APIs for job postings and applications.\nProject URL: https://example.com/recruitment-project\nE-Commerce Platform | March 2022 – August 2022\nTechnologies: Next.js, Express.js, MongoDB, Redis\nDeveloped an e-commerce application with product search and filtering, integrated secure payment processing, and implemented\ncaching to improve product retrieval performance.\nProject URL: https://example.com/ecommerce-project\nCERTIFICATIONS\n• AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024.\n• Professional Scrum Master I — Scrum.org, 2023.\n• Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022.\n• Meta Front-End Developer Professional Certificate — Coursera, 2021.\nACHIEVEMENTS AND AWARDS\n• Engineering Excellence Award — GlobalTech Solutions, 2024.\n• Recognized for improving API performance by 35%, 2023.\n• First Place, University Software Development Competition, 2017.\n• Awarded academic merit scholarship during postgraduate studies, 2018.\nPUBLICATIONS AND RESEARCH\nPerformance Optimization Techniques for Scalable Web Applications\nPublished in: International Journal of Software Engineering Research, 2023.\nResearch interests: Distributed systems, cloud computing, software performance optimization.\nVOLUNTEERING AND COMMUNITY INVOLVEMENT\nTechnical Mentor — Code for Everyone | January 2022 – December 2023\nMentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted\nbeginners with open-source contributions.\nPROFESSIONAL MEMBERSHIPS\n• Association for Computing Machinery (ACM) — Professional Member, 2022–Present.\n• IEEE Computer Society — Member, 2021–Present.",
+      "structuredText": {
+        "blocks": [
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 42,
+              "w": 212,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 42,
+                  "w": 212,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 51,
+                "text": "• Worked with senior developers to deliver client projects."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 62,
+              "w": 62,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 62,
+                  "w": 62,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 73,
+                "text": "EDUCATION"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 81,
+              "w": 451,
+              "h": 47
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 81,
+                  "w": 386,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 90,
+                "text": "Master of Science in Computer Science | University of Manchester — Manchester, United Kingdom"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 93,
+                  "w": 136,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Oblique",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "italic",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 102,
+                "text": "September 2017 – September 2018"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 105,
+                  "w": 68,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 114,
+                "text": "Grade: Distinction"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 117,
+                  "w": 451,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 126,
+                "text": "Relevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 135,
+              "w": 388,
+              "h": 47
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 135,
+                  "w": 388,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 144,
+                "text": "Bachelor of Technology in Computer Science and Engineering | University of Delhi — Delhi, India"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 147,
+                  "w": 95,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Oblique",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "italic",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 156,
+                "text": "August 2013 – May 2017"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 159,
+                  "w": 69,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 168,
+                "text": "Grade: First Class"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 171,
+                  "w": 353,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 180,
+                "text": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 192,
+              "w": 56,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 192,
+                  "w": 56,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 203,
+                "text": "PROJECTS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 211,
+              "w": 488,
+              "h": 59
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 211,
+                  "w": 272,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 220,
+                "text": "Smart Recruitment Management System | January 2024 – April 2024"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 223,
+                  "w": 219,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 232,
+                "text": "Technologies: React, Node.js, PostgreSQL, AWS, Python"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 235,
+                  "w": 488,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 244,
+                "text": "Developed a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 247,
+                  "w": 297,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 256,
+                "text": "search functionality, and created REST APIs for job postings and applications."
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 259,
+                  "w": 202,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 268,
+                "text": "Project URL: https://example.com/recruitment-project"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 277,
+              "w": 491,
+              "h": 59
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 277,
+                  "w": 200,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 286,
+                "text": "E-Commerce Platform | March 2022 – August 2022"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 289,
+                  "w": 196,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 298,
+                "text": "Technologies: Next.js, Express.js, MongoDB, Redis"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 301,
+                  "w": 491,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 310,
+                "text": "Developed an e-commerce application with product search and filtering, integrated secure payment processing, and implemented"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 313,
+                  "w": 189,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 322,
+                "text": "caching to improve product retrieval performance."
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 325,
+                  "w": 204,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 334,
+                "text": "Project URL: https://example.com/ecommerce-project"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 346,
+              "w": 88,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 346,
+                  "w": 88,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 357,
+                "text": "CERTIFICATIONS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 365,
+              "w": 299,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 365,
+                  "w": 299,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 374,
+                "text": "• AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 382,
+              "w": 188,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 382,
+                  "w": 188,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 391,
+                "text": "• Professional Scrum Master I — Scrum.org, 2023."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 399,
+              "w": 227,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 399,
+                  "w": 227,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 408,
+                "text": "• Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 416,
+              "w": 266,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 416,
+                  "w": 266,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 425,
+                "text": "• Meta Front-End Developer Professional Certificate — Coursera, 2021."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 436,
+              "w": 159,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 436,
+                  "w": 159,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 447,
+                "text": "ACHIEVEMENTS AND AWARDS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 455,
+              "w": 237,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 455,
+                  "w": 237,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 464,
+                "text": "• Engineering Excellence Award — GlobalTech Solutions, 2024."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 472,
+              "w": 221,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 472,
+                  "w": 221,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 481,
+                "text": "• Recognized for improving API performance by 35%, 2023."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 489,
+              "w": 246,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 489,
+                  "w": 246,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 498,
+                "text": "• First Place, University Software Development Competition, 2017."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 506,
+              "w": 274,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 506,
+                  "w": 274,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 515,
+                "text": "• Awarded academic merit scholarship during postgraduate studies, 2018."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 526,
+              "w": 166,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 526,
+                  "w": 166,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 537,
+                "text": "PUBLICATIONS AND RESEARCH"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 545,
+              "w": 357,
+              "h": 35
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 545,
+                  "w": 282,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 554,
+                "text": "Performance Optimization Techniques for Scalable Web Applications"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 557,
+                  "w": 289,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 566,
+                "text": "Published in: International Journal of Software Engineering Research, 2023."
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 569,
+                  "w": 357,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 578,
+                "text": "Research interests: Distributed systems, cloud computing, software performance optimization."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 590,
+              "w": 255,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 590,
+                  "w": 255,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 601,
+                "text": "VOLUNTEERING AND COMMUNITY INVOLVEMENT"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 609,
+              "w": 459,
+              "h": 35
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 609,
+                  "w": 290,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 618,
+                "text": "Technical Mentor — Code for Everyone | January 2022 – December 2023"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 621,
+                  "w": 459,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 630,
+                "text": "Mentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 633,
+                  "w": 159,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 642,
+                "text": "beginners with open-source contributions."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 654,
+              "w": 163,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 654,
+                  "w": 163,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 665,
+                "text": "PROFESSIONAL MEMBERSHIPS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 673,
+              "w": 322,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 673,
+                  "w": 322,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 682,
+                "text": "• Association for Computing Machinery (ACM) — Professional Member, 2022–Present."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 690,
+              "w": 196,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 690,
+                  "w": 196,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 699,
+                "text": "• IEEE Computer Society — Member, 2021–Present."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "extractedText": "LANGUAGES\nLanguage\nProficiency\nEnglish\nFluent\nGerman\nIntermediate\nFrench\nBasic\nHindi\nNative\nINTERESTS\nOpen-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running.\nSTRENGTHS\n• Strong analytical and problem-solving abilities.\n• Excellent communication and interpersonal skills.\n• Adaptability to new technologies and changing environments.\n• Team collaboration and leadership.\n• Time management and organizational skills.\n• Quick learner with a continuous improvement mindset.\n• Ability to work independently and under pressure.\nWEAKNESSES\n• Sometimes spend additional time ensuring work meets high-quality standards.\n• Occasionally find it challenging to delegate tasks.\n• Working on improving public speaking and presentation confidence.\nHOBBIES\nReading technology and business books, developing personal coding projects, playing chess, travelling and exploring different\ncultures, playing badminton, and participating in technology communities and hackathons.\nREFERENCES\nAvailable upon request.",
+      "structuredText": {
+        "blocks": [
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 42,
+              "w": 67,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 42,
+                  "w": 67,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 53,
+                "text": "LANGUAGES"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 62,
+              "w": 227,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 62,
+                  "w": 37,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 70,
+                "text": "Language"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 231,
+                  "y": 62,
+                  "w": 43,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 231,
+                "y": 70,
+                "text": "Proficiency"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 78,
+              "w": 206,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 78,
+                  "w": 26,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 86,
+                "text": "English"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 231,
+                  "y": 78,
+                  "w": 22,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 231,
+                "y": 86,
+                "text": "Fluent"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 94,
+              "w": 228,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 94,
+                  "w": 28,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 102,
+                "text": "German"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 231,
+                  "y": 94,
+                  "w": 44,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 231,
+                "y": 102,
+                "text": "Intermediate"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 110,
+              "w": 203,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 110,
+                  "w": 24,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 118,
+                "text": "French"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 231,
+                  "y": 110,
+                  "w": 19,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 231,
+                "y": 118,
+                "text": "Basic"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 47,
+              "y": 126,
+              "w": 206,
+              "h": 10
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 47,
+                  "y": 126,
+                  "w": 18,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 47,
+                "y": 134,
+                "text": "Hindi"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 231,
+                  "y": 126,
+                  "w": 22,
+                  "h": 10,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 231,
+                "y": 134,
+                "text": "Native"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 148,
+              "w": 58,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 148,
+                  "w": 58,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 159,
+                "text": "INTERESTS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 167,
+              "w": 476,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 167,
+                  "w": 476,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 176,
+                "text": "Open-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 188,
+              "w": 64,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 188,
+                  "w": 64,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 199,
+                "text": "STRENGTHS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 207,
+              "w": 178,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 207,
+                  "w": 178,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 216,
+                "text": "• Strong analytical and problem-solving abilities."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 224,
+              "w": 188,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 224,
+                  "w": 188,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 233,
+                "text": "• Excellent communication and interpersonal skills."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 241,
+              "w": 233,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 241,
+                  "w": 233,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 250,
+                "text": "• Adaptability to new technologies and changing environments."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 258,
+              "w": 136,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 258,
+                  "w": 136,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 267,
+                "text": "• Team collaboration and leadership."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 275,
+              "w": 169,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 275,
+                  "w": 169,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 284,
+                "text": "• Time management and organizational skills."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 292,
+              "w": 207,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 292,
+                  "w": 207,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 301,
+                "text": "• Quick learner with a continuous improvement mindset."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 309,
+              "w": 189,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 309,
+                  "w": 189,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 318,
+                "text": "• Ability to work independently and under pressure."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 329,
+              "w": 74,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 329,
+                  "w": 74,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 340,
+                "text": "WEAKNESSES"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 348,
+              "w": 295,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 348,
+                  "w": 295,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 357,
+                "text": "• Sometimes spend additional time ensuring work meets high-quality standards."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 365,
+              "w": 188,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 365,
+                  "w": 188,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 374,
+                "text": "• Occasionally find it challenging to delegate tasks."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 53,
+              "y": 382,
+              "w": 256,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 53,
+                  "y": 382,
+                  "w": 256,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 53,
+                "y": 391,
+                "text": "• Working on improving public speaking and presentation confidence."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 402,
+              "w": 47,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 402,
+                  "w": 47,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 413,
+                "text": "HOBBIES"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 421,
+              "w": 479,
+              "h": 23
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 421,
+                  "w": 479,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 430,
+                "text": "Reading technology and business books, developing personal coding projects, playing chess, travelling and exploring different"
+              },
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 433,
+                  "w": 341,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 442,
+                "text": "cultures, playing badminton, and participating in technology communities and hackathons."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 454,
+              "w": 71,
+              "h": 14
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 454,
+                  "w": 71,
+                  "h": 14,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica-Bold",
+                  "family": "sans-serif",
+                  "weight": "bold",
+                  "style": "normal",
+                  "size": 10
+                },
+                "x": 48,
+                "y": 465,
+                "text": "REFERENCES"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "bbox": {
+              "x": 48,
+              "y": 473,
+              "w": 89,
+              "h": 11
+            },
+            "lines": [
+              {
+                "wmode": 0,
+                "bbox": {
+                  "x": 48,
+                  "y": 473,
+                  "w": 89,
+                  "h": 11,
+                  "flags": 0
+                },
+                "font": {
+                  "name": "Helvetica",
+                  "family": "sans-serif",
+                  "weight": "normal",
+                  "style": "normal",
+                  "size": 8
+                },
+                "x": 48,
+                "y": 482,
+                "text": "Available upon request."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "fullText": "ALEXANDER MORGAN\nSENIOR SOFTWARE ENGINEER\nLondon, United Kingdom  |  +1 202-555-0147  |  alex.morgan@example.com\nLinkedIn: linkedin.com/in/alex-morgan-example  |  GitHub: github.com/alexmorgan-example\nPortfolio: alexmorgan.example.com\nPROFESSIONAL SUMMARY\nResults-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web\napplications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background\nin JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application\nperformance, and deliver reliable software solutions in Agile environments.\nCORE COMPETENCIES\nFull-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing •\nDatabase Design • CI/CD • Agile Project Management • Team Leadership • System Optimization\nTECHNICAL SKILLS\nCategory\nSkills\nProgramming\nJavaScript, TypeScript, Python, Java, SQL\nFrontend\nReact, Next.js, HTML5, CSS3, Tailwind CSS\nBackend\nNode.js, Express.js, Django, NestJS\nDatabases\nPostgreSQL, MongoDB, MySQL, Redis\nCloud\nAWS, Azure, Google Cloud\nDevOps\nDocker, Kubernetes, Jenkins, GitHub Actions\nTools\nGit, Jira, Postman, VS Code\nTesting\nJest, Cypress, Mocha\nPROFESSIONAL EXPERIENCE\nSenior Software Engineer | GlobalTech Solutions Ltd. — London, United Kingdom\nJanuary 2023 – Present\n• Designed and developed scalable web applications using React, Node.js, and TypeScript.\n• Built REST APIs supporting more than 100,000 monthly active users.\n• Improved API response times by 35% through database optimization and caching.\n• Implemented CI/CD pipelines using Docker and GitHub Actions.\n• Mentored a team of five junior developers.\n• Collaborated with product managers, designers, and QA engineers to deliver software releases.\nSoftware Engineer | Innovate Digital Systems — Manchester, United Kingdom\nJune 2019 – December 2022\n• Developed frontend applications using React and Redux.\n• Built backend services using Node.js and Express.\n• Integrated third-party payment and authentication APIs.\n• Designed relational database schemas using PostgreSQL.\n• Reduced application loading time by 25%.\n• Participated in Agile ceremonies and code reviews.\nJunior Web Developer | Creative Web Technologies — Birmingham, United Kingdom\nJuly 2017 – May 2019\n• Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap.\n• Implemented reusable frontend components.\n• Fixed bugs and improved application usability.\n• Worked with senior developers to deliver client projects.\nEDUCATION\nMaster of Science in Computer Science | University of Manchester — Manchester, United Kingdom\nSeptember 2017 – September 2018\nGrade: Distinction\nRelevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems.\nBachelor of Technology in Computer Science and Engineering | University of Delhi — Delhi, India\nAugust 2013 – May 2017\nGrade: First Class\nRelevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks.\nPROJECTS\nSmart Recruitment Management System | January 2024 – April 2024\nTechnologies: React, Node.js, PostgreSQL, AWS, Python\nDeveloped a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate\nsearch functionality, and created REST APIs for job postings and applications.\nProject URL: https://example.com/recruitment-project\nE-Commerce Platform | March 2022 – August 2022\nTechnologies: Next.js, Express.js, MongoDB, Redis\nDeveloped an e-commerce application with product search and filtering, integrated secure payment processing, and implemented\ncaching to improve product retrieval performance.\nProject URL: https://example.com/ecommerce-project\nCERTIFICATIONS\n• AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024.\n• Professional Scrum Master I — Scrum.org, 2023.\n• Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022.\n• Meta Front-End Developer Professional Certificate — Coursera, 2021.\nACHIEVEMENTS AND AWARDS\n• Engineering Excellence Award — GlobalTech Solutions, 2024.\n• Recognized for improving API performance by 35%, 2023.\n• First Place, University Software Development Competition, 2017.\n• Awarded academic merit scholarship during postgraduate studies, 2018.\nPUBLICATIONS AND RESEARCH\nPerformance Optimization Techniques for Scalable Web Applications\nPublished in: International Journal of Software Engineering Research, 2023.\nResearch interests: Distributed systems, cloud computing, software performance optimization.\nVOLUNTEERING AND COMMUNITY INVOLVEMENT\nTechnical Mentor — Code for Everyone | January 2022 – December 2023\nMentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted\nbeginners with open-source contributions.\nPROFESSIONAL MEMBERSHIPS\n• Association for Computing Machinery (ACM) — Professional Member, 2022–Present.\n• IEEE Computer Society — Member, 2021–Present.\nLANGUAGES\nLanguage\nProficiency\nEnglish\nFluent\nGerman\nIntermediate\nFrench\nBasic\nHindi\nNative\nINTERESTS\nOpen-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running.\nSTRENGTHS\n• Strong analytical and problem-solving abilities.\n• Excellent communication and interpersonal skills.\n• Adaptability to new technologies and changing environments.\n• Team collaboration and leadership.\n• Time management and organizational skills.\n• Quick learner with a continuous improvement mindset.\n• Ability to work independently and under pressure.\nWEAKNESSES\n• Sometimes spend additional time ensuring work meets high-quality standards.\n• Occasionally find it challenging to delegate tasks.\n• Working on improving public speaking and presentation confidence.\nHOBBIES\nReading technology and business books, developing personal coding projects, playing chess, travelling and exploring different\ncultures, playing badminton, and participating in technology communities and hackathons.\nREFERENCES\nAvailable upon request.",
+  "totalCharacters": 6113
+}

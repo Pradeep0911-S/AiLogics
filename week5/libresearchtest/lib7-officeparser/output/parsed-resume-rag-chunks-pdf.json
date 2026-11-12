@@ -1,0 +1,652 @@
+{
+  "fileName": "global_sample_resume.pdf",
+  "documentType": "pdf",
+  "metadata": {
+    "pages": 3,
+    "nativeProperties": {
+      "PDFFormatVersion": "1.4",
+      "Language": null,
+      "EncryptFilterName": null,
+      "IsLinearized": false,
+      "IsAcroFormPresent": false,
+      "IsXFAPresent": false,
+      "IsCollectionPresent": false,
+      "IsSignaturesPresent": false,
+      "tagged": false,
+      "permissions": "all"
+    },
+    "pageSetup": {
+      "width": 595.28,
+      "height": 841.89
+    }
+  },
+  "extractedText": [
+    {
+      "text": "ALEXANDER MORGAN",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ALEXANDER MORGAN",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "SENIOR SOFTWARE ENGINEER",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "SENIOR SOFTWARE ENGINEER",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "London, United Kingdom | +1 202-555-0147 | alex.morgan@example.com LinkedIn: linkedin.com/in/alex-morgan-example | GitHub: github.com/alexmorgan-example",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "SENIOR SOFTWARE ENGINEER",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Portfolio: alexmorgan.example.com",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "SENIOR SOFTWARE ENGINEER",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "PROFESSIONAL SUMMARY",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL SUMMARY",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Results-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web applications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background in JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application performance, and deliver reliable software solutions in Agile environments.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL SUMMARY",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "CORE COMPETENCIES",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CORE COMPETENCIES",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Full-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing • Database Design • CI/CD • Agile Project Management • Team Leadership • System Optimization",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CORE COMPETENCIES",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "TECHNICAL SKILLS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "TECHNICAL SKILLS",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "| Category | Skills |\n| Programming | JavaScript, TypeScript, Python, Java, SQL |\n| Frontend | React, Next.js, HTML5, CSS3, Tailwind CSS |\n| Backend | Node.js, Express.js, Django, NestJS |\n| Databases | PostgreSQL, MongoDB, MySQL, Redis |\n| Cloud | AWS, Azure, Google Cloud |\n| DevOps | Docker, Kubernetes, Jenkins, GitHub Actions |\n| Tools | Git, Jira, Postman, VS Code |\n| Testing | Jest, Cypress, Mocha |",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "TECHNICAL SKILLS",
+        "pageNumber": 1,
+        "isTableChunk": true
+      }
+    },
+    {
+      "text": "PROFESSIONAL EXPERIENCE",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Senior Software Engineer | GlobalTech Solutions Ltd. — London, United Kingdom January 2023 – Present",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Designed and developed scalable web applications using React, Node.js, and TypeScript.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Built REST APIs supporting more than 100,000 monthly active users.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Improved API response times by 35% through database optimization and caching.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Implemented CI/CD pipelines using Docker and GitHub Actions.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Mentored a team of five junior developers.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Collaborated with product managers, designers, and QA engineers to deliver software releases.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Software Engineer | Innovate Digital Systems — Manchester, United Kingdom June 2019 – December 2022",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Developed frontend applications using React and Redux.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Built backend services using Node.js and Express.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Integrated third-party payment and authentication APIs.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Designed relational database schemas using PostgreSQL.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Reduced application loading time by 25%.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Participated in Agile ceremonies and code reviews.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Junior Web Developer | Creative Web Technologies — Birmingham, United Kingdom July 2017 – May 2019",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Implemented reusable frontend components.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Fixed bugs and improved application usability.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Worked with senior developers to deliver client projects.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "EDUCATION",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Master of Science in Computer Science | University of Manchester — Manchester, United Kingdom September 2017 – September 2018 Grade: Distinction",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Relevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Bachelor of Technology in Computer Science and Engineering | University of Delhi — Delhi, India August 2013 – May 2017 Grade: First Class",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "PROJECTS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROJECTS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Smart Recruitment Management System | January 2024 – April 2024",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Smart Recruitment Management System | January 2024 – April 2024",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Technologies: React, Node.js, PostgreSQL, AWS, Python Developed a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate search functionality, and created REST APIs for job postings and applications. Project URL: https://example.com/recruitment-project",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Smart Recruitment Management System | January 2024 – April 2024",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "E-Commerce Platform | March 2022 – August 2022 Technologies: Next.js, Express.js, MongoDB, Redis Developed an e-commerce application with product search and filtering, integrated secure payment processing, and implemented caching to improve product retrieval performance. Project URL: https://example.com/ecommerce-project",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Smart Recruitment Management System | January 2024 – April 2024",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "CERTIFICATIONS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CERTIFICATIONS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CERTIFICATIONS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Professional Scrum Master I — Scrum.org, 2023.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CERTIFICATIONS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CERTIFICATIONS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Meta Front-End Developer Professional Certificate — Coursera, 2021.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CERTIFICATIONS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "ACHIEVEMENTS AND AWARDS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ACHIEVEMENTS AND AWARDS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Engineering Excellence Award — GlobalTech Solutions, 2024.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ACHIEVEMENTS AND AWARDS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Recognized for improving API performance by 35%, 2023.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ACHIEVEMENTS AND AWARDS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "First Place, University Software Development Competition, 2017.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ACHIEVEMENTS AND AWARDS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Awarded academic merit scholarship during postgraduate studies, 2018.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ACHIEVEMENTS AND AWARDS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "PUBLICATIONS AND RESEARCH",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PUBLICATIONS AND RESEARCH",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Performance Optimization Techniques for Scalable Web Applications",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Performance Optimization Techniques for Scalable Web Applications",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Published in: International Journal of Software Engineering Research, 2023. Research interests: Distributed systems, cloud computing, software performance optimization.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Performance Optimization Techniques for Scalable Web Applications",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "VOLUNTEERING AND COMMUNITY INVOLVEMENT",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "VOLUNTEERING AND COMMUNITY INVOLVEMENT",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Technical Mentor — Code for Everyone | January 2022 – December 2023",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Technical Mentor — Code for Everyone | January 2022 – December 2023",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Mentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted beginners with open-source contributions.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Technical Mentor — Code for Everyone | January 2022 – December 2023",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "PROFESSIONAL MEMBERSHIPS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL MEMBERSHIPS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "Association for Computing Machinery (ACM) — Professional Member, 2022–Present.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL MEMBERSHIPS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "IEEE Computer Society — Member, 2021–Present.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL MEMBERSHIPS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "LANGUAGES",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "LANGUAGES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "| Language | Proficiency |\n| English | Fluent |\n| German | Intermediate |\n| French | Basic |\n| Hindi | Native |",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "LANGUAGES",
+        "pageNumber": 3,
+        "isTableChunk": true
+      }
+    },
+    {
+      "text": "INTERESTS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "INTERESTS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Open-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "INTERESTS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "STRENGTHS",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Strong analytical and problem-solving abilities.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Excellent communication and interpersonal skills.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Adaptability to new technologies and changing environments.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Team collaboration and leadership.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Time management and organizational skills.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Quick learner with a continuous improvement mindset.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Ability to work independently and under pressure.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "WEAKNESSES",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "WEAKNESSES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Sometimes spend additional time ensuring work meets high-quality standards.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "WEAKNESSES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Occasionally find it challenging to delegate tasks.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "WEAKNESSES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Working on improving public speaking and presentation confidence.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "WEAKNESSES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "HOBBIES",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "HOBBIES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Reading technology and business books, developing personal coding projects, playing chess, travelling and exploring different cultures, playing badminton, and participating in technology communities and hackathons.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "HOBBIES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "REFERENCES",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "REFERENCES",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "Available upon request.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "REFERENCES",
+        "pageNumber": 3
+      }
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,178 @@
+{
+  "fileName": "global_sample_resume.pdf",
+  "documentType": "pdf",
+  "metadata": {
+    "pages": 3,
+    "nativeProperties": {
+      "PDFFormatVersion": "1.4",
+      "Language": null,
+      "EncryptFilterName": null,
+      "IsLinearized": false,
+      "IsAcroFormPresent": false,
+      "IsXFAPresent": false,
+      "IsCollectionPresent": false,
+      "IsSignaturesPresent": false,
+      "tagged": false,
+      "permissions": "all"
+    },
+    "pageSetup": {
+      "width": 595.28,
+      "height": 841.89
+    }
+  },
+  "extractedText": [
+    {
+      "text": "ALEXANDER MORGAN\nSENIOR SOFTWARE ENGINEER\nLondon, United Kingdom | +1 202-555-0147 | alex.morgan@example.com LinkedIn: linkedin.com/in/alex-morgan-example | GitHub: github.com/alexmorgan-example\nPortfolio: alexmorgan.example.com\nPROFESSIONAL SUMMARY\nResults-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web applications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "ALEXANDER MORGAN",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "s. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background in JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application performance, and deliver reliable software solutions in Agile environments.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL SUMMARY",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "ms, optimize application performance, and deliver reliable software solutions in Agile environments.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL SUMMARY",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "CORE COMPETENCIES\nFull-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing • Database Design • CI/CD • Agile Project Management • Team Leadership • System Optimization\nTECHNICAL SKILLS\nCategory\nSkills\nProgramming\nJavaScript, TypeScript, Python, Java, SQL\nFrontend\nReact, Next.js, HTML5, CSS3, Tailwind CSS\nBackend\nNode.js, Express.js, Django, NestJS\nDatabases\nPostgreSQL, MongoDB, MySQL, Redis\nCloud\nAWS, Azure, Google Cloud\nDevOps",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CORE COMPETENCIES",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "js, Django, NestJS\nDatabases\nPostgreSQL, MongoDB, MySQL, Redis\nCloud\nAWS, Azure, Google Cloud\nDevOps\nDocker, Kubernetes, Jenkins, GitHub Actions\nTools\nGit, Jira, Postman, VS Code\nTesting\nJest, Cypress, Mocha\nPROFESSIONAL EXPERIENCE\nSenior Software Engineer | GlobalTech Solutions Ltd. — London, United Kingdom January 2023 – Present\nDesigned and developed scalable web applications using React, Node.js, and TypeScript.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "TECHNICAL SKILLS",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "Built REST APIs supporting more than 100,000 monthly active users. Improved API response times by 35% through database optimization and caching. Implemented CI/CD pipelines using Docker and GitHub Actions. Mentored a team of five junior developers. Collaborated with product managers, designers, and QA engineers to deliver software releases. Software Engineer | Innovate Digital Systems — Manchester, United Kingdom June 2019 – December 2022\nDeveloped frontend applications using React and Redux.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "ter, United Kingdom June 2019 – December 2022\nDeveloped frontend applications using React and Redux. Built backend services using Node.js and Express. Integrated third-party payment and authentication APIs. Designed relational database schemas using PostgreSQL. Reduced application loading time by 25%. Participated in Agile ceremonies and code reviews.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "tgreSQL. Reduced application loading time by 25%. Participated in Agile ceremonies and code reviews. Junior Web Developer | Creative Web Technologies — Birmingham, United Kingdom July 2017 – May 2019\nDeveloped responsive websites using HTML, CSS, JavaScript, and Bootstrap. Implemented reusable frontend components. Fixed bugs and improved application usability. Worked with senior developers to deliver client projects.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "d bugs and improved application usability. Worked with senior developers to deliver client projects. EDUCATION\nMaster of Science in Computer Science | University of Manchester — Manchester, United Kingdom September 2017 – September 2018 Grade: Distinction\nRelevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "PROFESSIONAL EXPERIENCE",
+        "pageNumber": 1
+      }
+    },
+    {
+      "text": "work: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems. Bachelor of Technology in Computer Science and Engineering | University of Delhi — Delhi, India August 2013 – May 2017 Grade: First Class\nRelevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": " First Class\nRelevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks. PROJECTS\nSmart Recruitment Management System | January 2024 – April 2024\nTechnologies: React, Node.js, PostgreSQL, AWS, Python Developed a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate search functionality, and created REST APIs for job postings and applications.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "EDUCATION",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": " upload and candidate search functionality, and created REST APIs for job postings and applications. Project URL: https://example.com/recruitment-project\nE-Commerce Platform | March 2022 – August 2022 Technologies: Next.js, Express.js, MongoDB, Redis Developed an e-commerce application with product search and filtering, integrated secure payment processing, and implemented caching to improve product retrieval performance.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Smart Recruitment Management System | January 2024 – April 2024",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "egrated secure payment processing, and implemented caching to improve product retrieval performance. Project URL: https://example.com/ecommerce-project\nCERTIFICATIONS\nAWS Certified Solutions Architect – Associate — Amazon Web Services, 2024. Professional Scrum Master I — Scrum.org, 2023. Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022. Meta Front-End Developer Professional Certificate — Coursera, 2021. ACHIEVEMENTS AND AWARDS\nEngineering Excellence Award — GlobalTech Solutions, 2024.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Smart Recruitment Management System | January 2024 – April 2024",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "— Coursera, 2021. ACHIEVEMENTS AND AWARDS\nEngineering Excellence Award — GlobalTech Solutions, 2024. Recognized for improving API performance by 35%, 2023. First Place, University Software Development Competition, 2017. Awarded academic merit scholarship during postgraduate studies, 2018. PUBLICATIONS AND RESEARCH\nPerformance Optimization Techniques for Scalable Web Applications\nPublished in: International Journal of Software Engineering Research, 2023.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "CERTIFICATIONS",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "calable Web Applications\nPublished in: International Journal of Software Engineering Research, 2023. Research interests: Distributed systems, cloud computing, software performance optimization. VOLUNTEERING AND COMMUNITY INVOLVEMENT\nTechnical Mentor — Code for Everyone | January 2022 – December 2023\nMentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted beginners with open-source contributions.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Performance Optimization Techniques for Scalable Web Applications",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "ent, conducted monthly programming workshops, and assisted beginners with open-source contributions. PROFESSIONAL MEMBERSHIPS\nAssociation for Computing Machinery (ACM) — Professional Member, 2022–Present. IEEE Computer Society — Member, 2021–Present. LANGUAGES\nLanguage\nProficiency\nEnglish\nFluent\nGerman\nIntermediate\nFrench\nBasic\nHindi\nNative\nINTERESTS\nOpen-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "Technical Mentor — Code for Everyone | January 2022 – December 2023",
+        "pageNumber": 2
+      }
+    },
+    {
+      "text": "tificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running. STRENGTHS\nStrong analytical and problem-solving abilities. Excellent communication and interpersonal skills. Adaptability to new technologies and changing environments. Team collaboration and leadership. Time management and organizational skills. Quick learner with a continuous improvement mindset. Ability to work independently and under pressure.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "INTERESTS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": "ick learner with a continuous improvement mindset. Ability to work independently and under pressure. WEAKNESSES\nSometimes spend additional time ensuring work meets high-quality standards. Occasionally find it challenging to delegate tasks. Working on improving public speaking and presentation confidence.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "STRENGTHS",
+        "pageNumber": 3
+      }
+    },
+    {
+      "text": " it challenging to delegate tasks. Working on improving public speaking and presentation confidence. HOBBIES\nReading technology and business books, developing personal coding projects, playing chess, travelling and exploring different cultures, playing badminton, and participating in technology communities and hackathons. REFERENCES\nAvailable upon request.",
+      "metadata": {
+        "sourceType": "pdf",
+        "closestHeading": "WEAKNESSES",
+        "pageNumber": 3
+      }
+    }
+  ],
+  "warnings": []
+}

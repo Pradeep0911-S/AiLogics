@@ -1,0 +1,115 @@
+• Fixed bugs and improved application usability.
+• Implemented reusable frontend components.
+• Developed responsive websites using HTML, CSS, JavaScript, and Bootstrap.
+July 2017 – May 2019
+Junior Web Developer | Creative Web Technologies — Birmingham, United Kingdom
+• Participated in Agile ceremonies and code reviews.
+• Reduced application loading time by 25%.
+• Designed relational database schemas using PostgreSQL.
+• Integrated third-party payment and authentication APIs.
+• Built backend services using Node.js and Express.
+• Developed frontend applications using React and Redux.
+June 2019 – December 2022
+Software Engineer | Innovate Digital Systems — Manchester, United Kingdom
+• Collaborated with product managers, designers, and QA engineers to deliver software releases.
+• Mentored a team of five junior developers.
+• Implemented CI/CD pipelines using Docker and GitHub Actions.
+• Improved API response times by 35% through database optimization and caching.
+• Built REST APIs supporting more than 100,000 monthly active users.
+• Designed and developed scalable web applications using React, Node.js, and TypeScript.
+January 2023 – Present
+Senior Software Engineer | GlobalTech Solutions Ltd. — London, United Kingdom
+PROFESSIONAL EXPERIENCE
+Testing                                 Jest, Cypress, Mocha
+Tools                                    Git, Jira, Postman, VS Code
+DevOps                                Docker, Kubernetes, Jenkins, GitHub Actions
+Cloud                                   AWS, Azure, Google Cloud
+Databases                           PostgreSQL, MongoDB, MySQL, Redis
+Backend                               Node.js, Express.js, Django, NestJS
+Frontend                              React, Next.js, HTML5, CSS3, Tailwind CSS
+Programming                       JavaScript, TypeScript, Python, Java, SQL
+Category                             Skills
+TECHNICAL SKILLS
+Database Design • CI/CD • Agile Project Management • Team Leadership • System Optimization
+Full-Stack Development • Software Architecture • REST API Development • Microservices Architecture • Cloud Computing •
+CORE COMPETENCIES
+performance, and deliver reliable software solutions in Agile environments.
+in JavaScript, TypeScript, React, Node.js, Python, and AWS. Proven ability to lead engineering teams, optimize application
+applications. Experienced in full-stack development, cloud infrastructure, API design, and distributed systems. Strong background
+Results-driven Senior Software Engineer with over 7 years of experience designing, developing, and deploying scalable web
+PROFESSIONAL SUMMARY
+Portfolio: alexmorgan.example.com
+LinkedIn: linkedin.com/in/alex-morgan-example  |  GitHub: github.com/alexmorgan-example
+London, United Kingdom  |  +1 202-555-0147  |  alex.morgan@example.com
+SENIOR SOFTWARE ENGINEER
+ALEXANDER MORGAN
+----------------Page (0) Break----------------
+• IEEE Computer Society — Member, 2021–Present.
+• Association for Computing Machinery (ACM) — Professional Member, 2022–Present.
+PROFESSIONAL MEMBERSHIPS
+beginners with open-source contributions.
+Mentored students learning JavaScript and web development, conducted monthly programming workshops, and assisted
+Technical Mentor — Code for Everyone | January 2022 – December 2023
+VOLUNTEERING AND COMMUNITY INVOLVEMENT
+Research interests: Distributed systems, cloud computing, software performance optimization.
+Published in: International Journal of Software Engineering Research, 2023.
+Performance Optimization Techniques for Scalable Web Applications
+PUBLICATIONS AND RESEARCH
+• Awarded academic merit scholarship during postgraduate studies, 2018.
+• First Place, University Software Development Competition, 2017.
+• Recognized for improving API performance by 35%, 2023.
+• Engineering Excellence Award — GlobalTech Solutions, 2024.
+ACHIEVEMENTS AND AWARDS
+• Meta Front-End Developer Professional Certificate — Coursera, 2021.
+• Microsoft Azure Fundamentals (AZ-900) — Microsoft, 2022.
+• Professional Scrum Master I — Scrum.org, 2023.
+• AWS Certified Solutions Architect – Associate — Amazon Web Services, 2024.
+CERTIFICATIONS
+Project URL: https://example.com/ecommerce-project
+caching to improve product retrieval performance.
+Developed an e-commerce application with product search and filtering, integrated secure payment processing, and implemented
+Technologies: Next.js, Express.js, MongoDB, Redis
+E-Commerce Platform | March 2022 – August 2022
+Project URL: https://example.com/recruitment-project
+search functionality, and created REST APIs for job postings and applications.
+Developed a recruitment platform to manage job applications and candidate profiles. Implemented resume upload and candidate
+Technologies: React, Node.js, PostgreSQL, AWS, Python
+Smart Recruitment Management System | January 2024 – April 2024
+PROJECTS
+Relevant Coursework: Data Structures, Algorithms, Operating Systems, Computer Networks.
+Grade: First Class
+August 2013 – May 2017
+Bachelor of Technology in Computer Science and Engineering | University of Delhi — Delhi, India
+Relevant Coursework: Advanced Software Engineering, Distributed Systems, Artificial Intelligence, Database Systems.
+Grade: Distinction
+September 2017 – September 2018
+Master of Science in Computer Science | University of Manchester — Manchester, United Kingdom
+EDUCATION
+• Worked with senior developers to deliver client projects.
+----------------Page (1) Break----------------
+Available upon request.
+REFERENCES
+cultures, playing badminton, and participating in technology communities and hackathons.
+Reading technology and business books, developing personal coding projects, playing chess, travelling and exploring different
+HOBBIES
+• Working on improving public speaking and presentation confidence.
+• Occasionally find it challenging to delegate tasks.
+• Sometimes spend additional time ensuring work meets high-quality standards.
+WEAKNESSES
+• Ability to work independently and under pressure.
+• Quick learner with a continuous improvement mindset.
+• Time management and organizational skills.
+• Team collaboration and leadership.
+• Adaptability to new technologies and changing environments.
+• Excellent communication and interpersonal skills.
+• Strong analytical and problem-solving abilities.
+STRENGTHS
+Open-source development, artificial intelligence, cloud architecture, technical blogging, mentoring, and long-distance running.
+INTERESTS
+Hindi                                                                           Native
+French                                                                        Basic
+German                                                                      Intermediate
+English                                                                       Fluent
+Language                                                                  Proficiency
+LANGUAGES
+----------------Page (2) Break----------------
