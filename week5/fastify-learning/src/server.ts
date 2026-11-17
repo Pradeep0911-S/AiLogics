@@ -7,7 +7,7 @@ const fastify = Fastify(
     }
 );
 
-fastify.get('/',(req,res) => {
+fastify.get('/',(request , reply) => {
     return {
         message : "default route "
     }
