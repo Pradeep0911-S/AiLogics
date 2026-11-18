@@ -1,0 +1,15 @@
+Image 1: pdf_image_p1_1.png
+(N]  NOVA LABS   (Pp)  PIXELHIVE   (A)  AEROWORKS
+
+Image 2: pdf_image_p1_2.png
+PROJECT      FIGURE     1  —  PLATFORM        GROWTH
+Monthly active users (MAU), Jan-Jun 2025
+                                                                    3,020
+                                                       2,480
+                                           2,100
+                               1,680
+                  1,450
+      1,200
+
+       Jan         Feb          Mar         Apr         May          Jun
+Source: fictional product analytics dataset | Growth: 152% from Jan to Jun

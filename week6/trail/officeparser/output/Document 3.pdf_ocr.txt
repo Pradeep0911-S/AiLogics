@@ -1,0 +1,12 @@
+Image 3: pdf_image_p1_3.png
+1
+NE
+ES
+
+Image 4: pdf_image_p1_4.png
+Ee
+SUE
+
+Image 5: pdf_image_p1_5.jpg
+|       3
+|       a.      |

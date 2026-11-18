@@ -1,0 +1,26 @@
+🚀  Riya Kapoor
+DATA ANALYST  |  BUSINESS INTELLIGENCE
+📍 Bengaluru, India   |   📞 +91 90000 12345   |   ✉ riya.kapoor@example.com
+🌐 riya-kapoor.example   |   in LinkedIn: linkedin.com/in/riyakapoor   |   ◉ github.com/riyakapoor
+
+✨ PROFESSIONAL SUMMARY
+Data Analyst with 4+ years of experience turning complex datasets into clear business decisions. Delivered reporting automation, dashboard adoption, and measurable improvements in operational performance.
+🧰 SKILLS & TOOLS
+🐍 Python  |  SQL  |  Excel  |  Power BI  |  Tableau  |  Pandas  |  NumPy  |  PostgreSQL  |  Git  |  AWS
+💼 EXPERIENCE
+NOVA LABS
+Senior Data Analyst
+Apr 2023 - Present	PIXELHIVE
+Data Analyst
+Jun 2021 - Mar 2023	
+• Built 12 Power BI dashboards used by 85+ stakeholders across sales and operations.
+• Automated weekly reporting with Python and SQL, reducing manual work by 18 hours per week.
+• Improved data quality checks and raised report accuracy from 92% to 98.5%.
+📊 PROJECT HIGHLIGHT - CUSTOMER GROWTH DASHBOARD
+
+Result: Monthly active users increased from 1,200 in January 2025 to 3,020 in June 2025 (+152%). Dashboard refresh time: 4 minutes. Data source: fictional product analytics dataset.
+🎓 EDUCATION & CERTIFICATIONS
+B.Sc. Statistics | Christ University | 2021 | GPA: 8.7/10
+Microsoft Certified: Power BI Data Analyst Associate | 2024  •  Google Data Analytics Certificate | 2022
+🌍 LANGUAGES
+English (fluent) • Hindi (native) • Kannada (conversational)

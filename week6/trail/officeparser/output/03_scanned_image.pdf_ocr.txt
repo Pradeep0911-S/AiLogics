@@ -1,0 +1,23 @@
+Image 1: pdf_image_p1_1.png
+Daniel         Okafor
+                                       Operations      Analyst
+                     Nairobi, Kenya | +254 712 345 678 | daniel.okafor@example.com
+                                  Linkedin: linkedin.com/in/danielokafor
+SUMMARY
+ Operations Analyst with 4 years of experience in reporting, process improvement, and supply-chain
+ coordination.
+SKILLS
+ Excel, SQL, Power Bl, Tableau, Inventory Planning, Vendor Management, Process Mapping
+EMPLOYMENT
+ Operations Analyst | Lakeview Distribution | Nairobi | Mar 2022 - Present
+ Automated  weekly  reporting and reduced manual preparation time by 30%.
+ Tracked service levels and investigated delivery exceptions.
+ Operations Assistant | Metrolink Supplies | Nairobi | Jan 2020 - Feb 2022
+ Maintained inventory records and coordinated supplier updates.
+EDUCATION
+ B.Com.  in Business Information Systems | University of Nairobi | 2019
+PROJECTS
+ Delivery Performance  Dashboard - Built a Power Bl dashboard to monitor on-time delivery and order
+ volume
+REFERENCES
+ Available upon request.
